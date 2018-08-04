@@ -1,0 +1,9 @@
+.custom-item-wrapper{width:700px;margin-bottom:30px;position:relative}
+.custom-section{padding:15px}
+.custom-item-wrapper{border:1px solid #ccc;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;background-color:#fafafa}
+.custom-item-wrapper h3{padding:15px 15px 15px 35px;border-bottom:1px solid #fff;margin-top:0px;margin-bottom:0px;background:url("../images/dialog_heading.png") repeat-x scroll 0 0 transparent;-moz-border-radius:5px 5px 0 0;-webkit-border-radius:5px 5px 0 0;border-radius:5px 5px 0 0;text-transform:capitalize;text-shadow:1px 1px #f2fafd;font-weight:bold;color:#21759b}
+.form-table input[type="text"]{margin-bottom:5px;width:350px}
+html* .form-table input[type="text"]{height:18px;font-size:11px} /* IE7 only */
+.form-table input[type="text"]{height:25px}
+.form-table{margin-bottom:20px}
+.form-table td{padding:2px 10px}

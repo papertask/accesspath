@@ -1,0 +1,1 @@
+function dzc_http(){var a;try{a=new XMLHttpRequest}catch(b){try{a=new ActiveXObject("Msxml2.XMLHTTP")}catch(b){try{a=new ActiveXObject("Microsoft.XMLHTTP")}catch(b){return!1}}}return a}function dzc_ajax(a,b,c){var d=dzc_http();d.onreadystatechange=function(){4==d.readyState},d.open(b,a,c),d.setRequestHeader("X-Requested-With","XMLHttpRequest"),d.send(null)}

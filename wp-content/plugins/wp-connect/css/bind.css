@@ -1,0 +1,55 @@
+#wptm-tips {padding: 0 0.6em;margin: 5px 0 15px;background:#f0f8ff; border:1px solid #addae6;}
+#wptm-tips p {margin: 0.5em 0;padding: 2px;}
+/*sync*/
+#tlist a{display:inline-block; margin-right:0px; overflow:hidden; position:relative; vertical-align:middle; height:32px; width:32px; background-position:0px 0px}
+#tlist .twitter{background:url(../images/bind/twitter.png) no-repeat}
+#tlist .qq{background:url(../images/bind/qq.png) no-repeat}
+#tlist .sina{background:url(../images/bind/sina.png) no-repeat}
+#tlist .sohu{background:url(../images/bind/sohu.png) no-repeat}
+#tlist .netease{background:url(../images/bind/netease.png) no-repeat}
+#tlist .renren{background:url(../images/bind/renren.png) no-repeat}
+#tlist .kaixin001{background:url(../images/bind/kaixin001.png) no-repeat}
+#tlist .digu{background:url(../images/bind/digu.png) no-repeat}
+#tlist .tianya{background:url(../images/bind/tianya.png) no-repeat}
+#tlist .douban{background:url(../images/bind/douban.png) no-repeat}
+#tlist .fanfou{background:url(../images/bind/fanfou.png) no-repeat}
+#tlist .renjian{background:url(../images/bind/renjian.png) no-repeat}
+#tlist .wbto{background:url(../images/bind/wbto.png) no-repeat}
+#tlist .shuoshuo{background:url(../images/bind/shuoshuo.png) no-repeat}
+#tlist .facebook{background:url(../images/bind/facebook.png) no-repeat}
+#tlist .linkedin{background:url(../images/bind/linkedin.png) no-repeat}
+#tlist .yixin{background:url(../images/bind/yixin.png) no-repeat}
+/*login*/
+#login_bind a{text-indent:-9999px;display:inline-block; margin-right:1px; overflow:hidden; position:relative; vertical-align:middle; height:24px; width:24px; background-position:0px 0px}
+#login_bind .bind-qzone{background:url(../images/login/btn_qzone.png) no-repeat}
+#login_bind .bind-sina{background:url(../images/login/btn_sina.png) no-repeat}
+#login_bind .bind-qq{background:url(../images/login/btn_qq.png) no-repeat}
+#login_bind .bind-renren{background:url(../images/login/btn_renren.png) no-repeat}
+#login_bind .bind-taobao{background:url(../images/login/btn_taobao.png) no-repeat}
+#login_bind .bind-douban{background:url(../images/login/btn_douban.png) no-repeat}
+#login_bind .bind-baidu{background:url(../images/login/btn_baidu.png) no-repeat}
+#login_bind .bind-kaixin001{background:url(../images/login/btn_kaixin001.png) no-repeat}
+#login_bind .bind-sohu{background:url(../images/login/btn_sohu.png) no-repeat}
+#login_bind .bind-netease{background:url(../images/login/btn_netease.png) no-repeat}
+#login_bind .bind-tianya{background:url(../images/login/btn_tianya.png) no-repeat}
+#login_bind .bind-msn{background:url(../images/login/btn_msn.png) no-repeat}
+#login_bind .bind-google{background:url(../images/login/btn_google.png) no-repeat}
+#login_bind .bind-yahoo{background:url(../images/login/btn_yahoo.png) no-repeat}
+#login_bind .bind-twitter{background:url(../images/login/btn_twitter.png) no-repeat}
+#login_bind .bind-360{background:url(../images/login/btn_360.png) no-repeat}
+#login_bind .bind-facebook{background:url(../images/login/btn_facebook.png) no-repeat}
+#login_bind .bind-alipay{background:url(../images/login/btn_alipay.png) no-repeat}
+#login_bind .bind-linkedin{background:url(../images/login/btn_linkedin.png) no-repeat}
+#login_bind .bind-yixin{background:url(../images/login/btn_yixin.png) no-repeat}
+#login_bind .bind-weixin{background:url(../images/login/btn_weixin.png) no-repeat}
+#login_bind .bind-github{background:url(../images/login/btn_github.png) no-repeat}
+/*binded*/
+.pl-bound b, .bound b, #bind_twitter b, #bind_qq b, #bind_sina b, #bind_sohu b, #bind_netease b, #bind_douban b, #bind_tianya b, #bind_renren b, #bind_kaixin001 b, #bind_shuoshuo b, #bind_facebook b, #bind_linkedin b, #bind_yixin b{bottom:0px; right:0px; display:block; overflow:hidden; position:absolute; width:15px; height:14px; background:url(../images/bind.gif) no-repeat 0 0}
+#tlist a.expired b{background:url(../images/bind_expired.gif) no-repeat 0 0}
+/*dialog*/
+.dialog, .dialog_add, .dialog_delete{text-align:center}
+a.close{background:url(../images/close.gif) no-repeat 0 0}
+.dialog .account, .dialog .token{display:none}
+.masking{width:300px; z-index:6001; position:absolute; display:none; background-color:#fff; border:7px solid #325266;border-radius:9px;padding:20px; filter:alpha(opacity=90); -moz-opacity:0.90; opacity:0.90; -moz-border-radius:6px; -webkit-border-radius:6px; -moz-box-shadow:0 0 50px #ccc; -webkit-box-shadow:0 0 50px #ccc}
+.masking h2{background:url(../images/info.png) 0 50% no-repeat; margin:0px; padding:10px 0 10px 45px; border-bottom:1px solid #333; font-size:20px}
+.masking a.close{position:absolute; right:5px; top:10px; cursor:pointer; height:15px; width:15px; color:#000}

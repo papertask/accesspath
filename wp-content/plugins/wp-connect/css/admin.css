@@ -1,0 +1,140 @@
+/* Dialog */
+.ui-dialog{position:absolute;padding:.2em;width:300px;overflow:hidden}
+.ui-dialog .ui-dialog-titlebar{padding:.5em 1em .3em;position:relative}
+.ui-dialog .ui-dialog-title{float:left;margin:.1em 16px .2em 0}
+.ui-dialog .ui-dialog-titlebar-close{position:absolute;right:.3em;top:50%;width:19px;margin:-10px 0 0 0;padding:1px;height:18px}
+.ui-dialog .ui-dialog-titlebar-close span{display:block;margin:1px}
+.ui-dialog .ui-dialog-titlebar-close:hover,.ui-dialog .ui-dialog-titlebar-close:focus{padding:0}
+.ui-dialog .ui-dialog-content{position:relative;border:0;padding:.5em 1em;background:none;overflow:auto;zoom:1}
+.ui-dialog .ui-dialog-buttonpane{text-align:left;border-width:1px 0 0 0;background-image:none;margin:.5em 0 0 0;padding:.3em 1em .5em .4em}
+.ui-dialog .ui-dialog-buttonpane button{float:right;margin:.5em .4em .5em 0;cursor:pointer;padding:.2em .6em .3em .6em;line-height:1.4em;width:auto;overflow:visible}
+.ui-dialog .ui-resizable-se{width:14px;height:14px;right:3px;bottom:3px}
+.ui-draggable .ui-dialog-titlebar{cursor:move}
+/* rest */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,hgroup,menu,nav,section,menu,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline}
+article,aside,figure,footer,header,hgroup,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;outline:none}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted #000;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+a{text-decoration:none;color:#69c}
+a:hover{text-decoration:underline}
+h1,h2,h3,h4,h5,h6{color:#314572;padding-top:10px;padding-bottom:10px;font-weight:100;font-family:Arial,Helvetica,sans-serif;text-shadow:1px 1px #fff}
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{color:#6a6a6a;text-decoration:none}
+h1 a:hover{color:#454545;text-decoration:none}
+h1{font-size:28px}
+h2{font-size:21px;margin-bottom:13px}
+h3{font-size:19px;font-weight:bold}
+h4{font-size:17px}
+h5{font-size:16px}
+h6{font-size:15px}
+hr{display:block;height:1px;border:0;border-top:1px solid #d5d5d5;margin:0;margin-top:3px;margin-bottom:3px;padding:0}
+.hr{height:1px;background-image:url(../images/hr.gif);background-repeat:repeat-x;background-color:transparent;background-position:top;border-top:0px;margin:0px}
+p{margin-bottom:15px;margin-top:15px;line-height:1.7em}
+ol{margin-left:35px}
+strong{font-weight:bold}
+em{font-style:italic}
+.alignleft{float:left;margin-right:10px}
+.alignright{float:right;margin-left:10px}
+body{font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#37436e;line-height:1.4em;background-color:##F9F9F9}
+#main-container{position:absolute;left:0px;top:0px;width:780px;padding-left:10px;padding-top:10px;background-color:#f9f9f9}
+.center{height:auto;width:960px;margin:auto;text-align:left;padding:0px}
+.h4{float:left;font-size:14px}
+#dialog-modal{width:5px;height:5px;border:1px solid red}
+#pexeto-content-container{height:auto;width:799px;background-image:url(../images/content_bg.png);background-repeat:repeat-y;min-height:500px;overflow:hidden;margin-top:15px}
+#sidebar{width:199px;height:100%;float:left;padding-top:5px}
+#content{width:595px;float:left;margin-bottom:-2px;padding-top:5px;min-height:500px}
+#pexeto-footer{width:799px;height:65px;float:left;background-image:url(../images/footer_bg.png);background-repeat:no-repeat;background-color:#fff}
+#pexeto-footer .button-save{float:right;margin-right:30px;margin-top:17px}
+#logo{width:199px;height:117px;display:block;background-image:url(../images/logo.png);position:relative;top:-5px;background-color:#fff}
+#navigation ul li a{display:block;height:49px;width:212px;background-image:url(../images/navigation_bg.png);background-position:top left;font-weight:bold;font-size:12px;color:#FFF;cursor:pointer;font-style:normal;margin-left:-3px}
+#navigation ul li{height:49px;*margin-top:-3px}
+#navigation ul li a:hover,#navigation ul li.ui-tabs-selected a{background-position:0 50px;text-decoration:none;position:relative;z-index:20}
+#navigation ul li span{float:left;line-height:49px;text-shadow:1px 1px #000;padding-left:3px}
+#navigation ul li img{float:left;padding-top:5px;padding-left:21px}
+#navigation ul{border-bottom:1px solid #000;*margin-top:3px;*border-width:0px}
+#navigation{position:relative;top:-5px}
+#header{width:596px;height:117px;display:block;background-image:url(../images/header_bg.png);position:relative;top:-5px;border-bottom:1px solid #a3bdd5;background-color:#fff}
+#theme_name{margin-left:25px;padding-top:30px;font-size:18px}
+.tab_navigation{position:relative;left:20px;height:50px;top:-7px;top:-7px\9}
+.tab_navigation ul li{display:inline;line-height:32px;text-shadow:1px 1px #fff;padding-left:22px;padding-right:22px;float:left}
+.tab_navigation ul li.ui-tabs-selected{padding-left:0px;padding-right:0px}
+a.tab,a.tab_link{font-style:normal;display:block;color:#487991}
+a.tab:hover,a.tab_link:hover{color:#333;text-decoration:none}
+.tab_navigation ul li.ui-tabs-selected a.tab,.tab_navigation ul li.ui-tabs-selected a.tab{background:transparent url(../images/tab_li.png) no-repeat scroll top right;display:inline-block;height:32px;margin-right:-5px;margin-top:0;padding-right:28px;text-decoration:none;font-style:normal}
+.tab_navigation ul li.ui-tabs-selected a.tab span,.tab_navigation ul li.ui-tabs-selected a.tab span{background:transparent url(../images/tab_span.png) no-repeat top left;line-height:32px;display:block;padding-left:23px;color:#37436e;position:relative;top:0px}
+#options_container{position:relative;margin-top:-30px}
+#options_container h4{width:250px;float:left;padding-top:5px;font-size:14px}
+.custom-heading{width:220px;float:left;padding-top:7px;color:#828282}
+#options_container input.inputs,#options_container select,#options_container input[type="file"],#options_container textarea{width:220px;padding:7px;float:right;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;background-image:url(../images/input_bg.png);background-repeat:repeat-x;border:1px solid #d5d5d5;float:left;font-size:11px;color:#656565}
+#options_container textarea{width:278px}
+#options_container .upload{width:141px}
+#options_container .custom-option input,#options_container .custom-option textarea{margin-bottom:10px;width:279px;*width:260px}
+#options_container .custom-option .upload{width:199px;*width:170px}
+#options_container textarea{height:100px}
+#options_container select{height:32px}
+.option h3{font-size:16px}
+input[type="file"]{line-height:30px}
+#options_container input.option-color{width:172px}
+.color-preview{background-image:url(../images/color_window.png);background-color:transparent;float:left;height:32px;margin-left:3px;margin-top:1px;width:32px}
+.help-button,.help-btn{display:block;width:22px;height:22px;background:url(../images/help.png) no-repeat;float:right}
+.help-button:hover,.help-btn:hover{opacity:0.8;filter:alpha(opacity=80)}
+.help-dialog{display:none}
+.option{min-height:35px;padding:20px 30px 20px 30px;background-image:url(../images/option_bg.png);background-repeat:repeat-x;background-position:bottom;height:auto;overflow:hidden;z-index:10}
+.custom-option{min-height:35px;height:auto;overflow:hidden}
+.on-off{display:block;width:97px;height:31px;background-image:url(../images/on_off.png);background-repeat:no-repeat;float:left;cursor:pointer}
+.on-off span{display:block;width:46px;height:28px;background-image:url(../images/on_off_slide.png);background-repeat:no-repeat;margin:2px}
+/* follow me */
+#follow-pexeto{float:left;margin-left:20px}
+#follow-pexeto p{margin-bottom:5px;margin-top:7px;color:#FFF}
+#follow-pexeto ul li{display:inline;text-decoration:none;display:block;float:left;margin-right:10px}
+.deleteButton,.ui-icon-closethick{width:16px;height:16px;position:absolute;top:10px;right:10px;background:url(../images/delete.png) no-repeat}
+.ui-dialog{padding:7px;-moz-border-radius:9px;-webkit-border-radius:9px;border-radius:9px;background:url(../images/trans.png) repeat}
+.ui-dialog .ui-widget-header{height:30px;background:url(../images/dialog_heading.png) repeat-x;-moz-border-radius:6px 6px 0px 0px;-webkit-border-radius:6px 6px 0px 0px;border-radius:6px 6px 0px 0px}
+.ui-dialog .ui-widget-header .ui-icon-closethick{top:-2px;right:5px}
+.ui-dialog-title{text-shadow:1px 1px #FFF;font-weight:bold;font-size:14px;position:relative;top:5px}
+.ui-dialog .ui-widget-content{background-color:#fff;-moz-border-radius:0px 0px 6px 6px;-webkit-border-radius:0px 0px 6px 6px;border-radius:0px 0px 6px 6px;border-top:1px solid #bec4ca;margin-bottom:-14px}
+.option-check{overflow:hidden}
+.note_box{-moz-border-radius:7px;-webkit-border-radius:7px;-khtml-border-radius:10px;border-radius:7px;background:url("../images/note.png") no-repeat scroll 10px 13px #FFFADB;border:1px solid #F5D145;color:#9E660D;font-family:Georgia,"Times New Roman",Times,serif;font-size:13px;line-height:1.5em;margin:15px 0 10px;padding:10px 20px 10px 35px;width:704px}
+.option .note_box{width:auto}
+.note_box p{margin-top:0px;margin-bottom:0px}
+.option ul.list{margin-left:30px}
+.option ul.list li{list-style:inside;list-style-image:url(../images/dblue.gif);line-height:2em}
+#options_container option{padding:7px}
+#pexeto-footer input.save-button{float:right;margin-right:30px;margin-top:17px;background-image:url(../images/save.png);border-width:0px;width:115px;height:33px;background-repeat:no-repeat;color:#fff;font-weight:bold;padding-bottom:8px;text-shadow:1px 1px #3f597a}
+#pexeto-footer input.save-button,#pexeto-content-container input.input-btn{background-image:url(../images/save.png);border-width:0px;width:115px;height:33px;background-repeat:no-repeat;color:#fff;font-weight:bold;padding-bottom:8px;text-shadow:1px 1px #3f597a}
+#pexeto-footer input.save-button{float:right;margin-right:30px;margin-top:17px}
+#pexeto-footer input.save-button:hover,#pexeto-content-container input.input-btn:hover{color:#e2ebf7;cursor:pointer}
+#options_container textarea.inputarea{width:300px;float:right}
+._icon_url_span_wrapper{display:none}
+.text-tips{padding:5px 10px 0 0;float:left;color:#666}
+.text-tips code{background:#eaeaea;padding:1px 3px}
+/* Î¢ÐÅ¶þÎ¬Âë */
+.wxqr_code{bottom:133px;height:222px;left:0;position:absolute;width:200px;z-index:999}
+.wxqr_code .code_con{background:none repeat scroll 0 0 #FFF;border:1px solid #E6E4E4;box-shadow:0 0 1px rgba(34,25,25,0.1);padding:7px;text-align:center}
+.wxqr_code .code_con span{display:block;height:186px}
+.wxqr_code .code_con b{display:block;font-size:14px;margin-top:6px}
+/* checkbox and radio */
+#options_container label{display:block;cursor:pointer;line-height:20px;padding-bottom:9px}
+#options_container .label_check input,#options_container .label_radio input{margin-right:5px}
+#options_container .label_check,#options_container .label_radio{padding-left:28px}
+#options_container .label_radio{background:url(../images/radio-off.png) no-repeat 0 2px}
+#options_container .label_check{background:url(../images/check-off.png) no-repeat 0 2px}
+#options_container label.c_on{background:url(../images/check-on.png) no-repeat 0 2px}
+#options_container label.r_on{background:url(../images/radio-on.png) no-repeat 0 2px}
+#options_container .label_check input,#options_container .label_radio input{position:absolute;left:-9999px}
+/*dragbox*/
+#dragbox{padding:10px}
+#rectangle{float:left;border:1px dotted #F00;background-color:#FFF}
+#dragmarker{width:6px;position:absolute;display:none}
+#dragmarker img{float:left}
+#dragDropMoveLayer{position:absolute;display:none;border:1px solid #000;filter:alpha(opacity=90);opacity:0.9}
+#dragbox li{list-style-type:none;cursor:default;float:left;padding-right:3px}
+.blue{color:blue}

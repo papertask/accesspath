@@ -1,0 +1,479 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-connect\n"
+"POT-Creation-Date: 2016-08-22 16:29+0800\n"
+"PO-Revision-Date: 2016-08-22 16:32+0800\n"
+"Last-Translator: smyx <smyx@qq.com>\n"
+"Language-Team: smyx <smyx@qq.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: E:\\php\\APMServ5.2.6\\www\\htdocs\\wp-content\\plugins"
+"\\wp-connect\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: signup.php:20 modules/connect.php:398
+msgid ""
+"<strong>错误</strong>：用户名只能包含字母、数字、空格、下划线、连字符（-）、"
+"点号（.）和 @ 符号。"
+msgstr ""
+"<strong>ERROR</strong>: Usernames can only contain lowercase letters (a-z) "
+"and numbers."
+
+#: signup.php:94
+#, php-format
+msgid "Session已过期！请重新<a href=\"%s\">登录</a>"
+msgstr "Your session has expired. Please <a href=\"%s\">log in</a> again."
+
+#: comment/comments.php:61
+#, php-format
+msgid "已有 <strong>%d</strong> 条评论"
+msgstr "<strong>%d</strong> Comments"
+
+#: comment/comments.php:63
+msgid "最新"
+msgstr "Newest"
+
+#: comment/comments.php:64
+msgid "最早"
+msgstr "Oldest"
+
+#: comment/comments.php:65
+msgid "最佳"
+msgstr "Best"
+
+#: comment/comments.php:79
+msgid "&laquo; 上一页"
+msgstr "&laquo; Previous"
+
+#: comment/comments.php:79
+msgid "下一页 &raquo;"
+msgstr "Next &raquo;"
+
+#: comment/comments.php:86
+msgid "评论已关闭。"
+msgstr "Comments are closed."
+
+#: comment/core.php:9
+msgid "插入表情"
+msgstr "Insert smileys"
+
+#: comment/core.php:9
+msgid "表情"
+msgstr "Smilies"
+
+#: comment/core.php:13
+msgid "插入图片"
+msgstr "Insert Pics"
+
+#: comment/core.php:13
+msgid "图片"
+msgstr "Image"
+
+#: comment/core.php:22
+msgid "今天"
+msgstr "Today"
+
+#: comment/core.php:23
+msgid " H:i"
+msgstr ""
+
+#: comment/core.php:26
+msgid "n月j日 H:i"
+msgstr "n-j H:i"
+
+#: comment/core.php:28
+msgid "Y年n月j日 H:i"
+msgstr "Y-n-j H:i"
+
+#: comment/core.php:33
+#, php-format
+msgid "%d分钟前"
+msgstr "%d mins ago"
+
+#: comment/core.php:35
+msgid "刚刚"
+msgstr "Just now"
+
+#: comment/core.php:47
+msgid "(文章作者)"
+msgstr "(Post author)"
+
+#: comment/core.php:66
+msgid "黑莓"
+msgstr "BlackBerry"
+
+#: comment/core.php:68
+msgid "移动端"
+msgstr "Mobile"
+
+#: comment/core.php:73 modules/functions.php:2127
+msgid "新浪微博"
+msgstr "Weibo"
+
+#: comment/core.php:75 modules/functions.php:2130
+msgid "腾讯微博"
+msgstr "Tencent"
+
+#: comment/core.php:77 languages/functions.php:3
+msgid "QQ"
+msgstr ""
+
+#: comment/core.php:82
+msgid "来自"
+msgstr "From "
+
+#: comment/core.php:107
+msgid "使用社交账号登录"
+msgstr "Social Login"
+
+#: comment/core.php:108 comment/core.php:143 comment/core.php:190
+msgid "关闭"
+msgstr "Close"
+
+#: comment/core.php:116
+msgid "作为游客留言:"
+msgstr "Comment as visitor"
+
+#: comment/core.php:120
+msgid "昵称"
+msgstr "Name"
+
+#: comment/core.php:124 comment/core.php:159
+msgid "邮箱"
+msgstr "E-mail"
+
+#: comment/core.php:128
+msgid "网址"
+msgstr "Website"
+
+#: comment/core.php:131
+msgid "登录"
+msgstr "Log in"
+
+#: comment/core.php:133
+msgid ""
+"支持用 <a href=\"http://gravatar.com/\" target=\"_blank\" rel=\"nofollow"
+"\">Gravatar头像</a>"
+msgstr ""
+"support <a href=\"http://gravatar.com/\" target=\"_blank\" rel=\"nofollow"
+"\">Gravatar</a>"
+
+#: comment/core.php:133
+#, php-format
+msgid "技术支持: %s"
+msgstr "support: %s"
+
+#: comment/core.php:142
+msgid "绑定更多社交账号登录"
+msgstr "Banding more social account to login"
+
+#: comment/core.php:150
+msgid "绑定后，图标会显示亮色并打勾，再次点击可以解绑。"
+msgstr ""
+"After banding, icon will be highlighted and ticked, click again to cancel "
+"banding. "
+
+#: comment/core.php:154 comment/functions.php:50
+msgid "新回复邮件提醒"
+msgstr "Email me when replied"
+
+#: comment/core.php:155
+msgid "建议您去个人资料修改注册邮箱，此处邮箱仅用于提醒。"
+msgstr ""
+"suggest you to your personal profile to edit email address, only for "
+"notification."
+
+#: comment/core.php:162
+msgid "提交"
+msgstr "Submit"
+
+#: comment/functions.php:89
+msgid "请填写昵称！"
+msgstr "Please enter your username."
+
+#: comment/functions.php:90
+msgid "昵称长度不能大于20个字符"
+msgstr "Username must be at most 20 characters."
+
+#: comment/functions.php:91
+msgid "请填写邮箱！"
+msgstr "Please enter your email."
+
+#: comment/functions.php:92
+msgid "请填写正确的邮箱！"
+msgstr "Please enter a valid email address"
+
+#: comment/functions.php:93
+msgid "请填写正确的网址！"
+msgstr "Please enter a valid URL."
+
+#: comment/functions.php:94
+msgid "展开回复"
+msgstr "Expand"
+
+#: comment/functions.php:95
+msgid "收起回复"
+msgstr "Collapse"
+
+#: comment/functions.php:96
+msgid "请输入图片地址"
+msgstr "Please enter the image URL"
+
+#: comment/functions.php:97
+msgid "请输入评论内容。"
+msgstr "Please enter your comment."
+
+#: comment/functions.php:98
+msgid "发布中..."
+msgstr "Posting..."
+
+#: comment/functions.php:157
+msgid "编辑"
+msgstr "Edit"
+
+#: comment/functions.php:160
+msgid "您的评论正在等待审核。"
+msgstr "Your comment is awaiting moderation."
+
+#: comment/functions.php:191 modules/connect.php:449
+msgid "绑定帐号"
+msgstr "Binding account"
+
+#: comment/functions.php:201
+msgid "快捷登录"
+msgstr "Login shortcut"
+
+#: comment/functions.php:203
+msgid "更多"
+msgstr "More"
+
+#: comment/functions.php:203
+msgid "使用帐号/密码登录"
+msgstr "Use username to login"
+
+#: comment/functions.php:203
+msgid "帐号登录"
+msgstr "Account"
+
+#: comment/functions.php:206 comment/functions.php:208
+#, php-format
+msgid "亲爱的<span>%s</span>，您好！"
+msgstr "Hi <span>%s</span>, Welcome!"
+
+#: comment/functions.php:206 comment/functions.php:208
+msgid "登出？"
+msgstr "Log out?"
+
+#: comment/functions.php:211 modules/functions.php:2572
+msgid "取消回复"
+msgstr "Cancel reply"
+
+#: comment/functions.php:228
+msgid "发表评论"
+msgstr "Comment"
+
+#: inc/login.php:80
+#, php-format
+msgid "Session已过期！请检查session路径是否正确，重新<a href=\"%s\">登录</a>"
+msgstr ""
+"Your session has expired. Please check session path is correct, try <a href="
+"\"%s\">log in</a> again."
+
+#: inc/login.php:367
+#, php-format
+msgid ""
+"很遗憾！该帐号( %1$s ) 已被用户名 %2$s 绑定！<button onclick=\"%3$s\">那个用"
+"户不用了，强制绑定当前用户</button>"
+msgstr ""
+"Sorry, this account ( %1$s ) has been binding username %2$s <button onclick="
+"\"%3$s\">Please delete the old account, mandatory binding for the current "
+"user</button>"
+
+#: languages/functions.php:2
+msgid "微信"
+msgstr "WeChat"
+
+#: languages/functions.php:4
+msgid "人人网"
+msgstr "RenRen"
+
+#: languages/functions.php:5
+msgid "开心网"
+msgstr "Kaixin"
+
+#: languages/functions.php:6
+msgid "豆瓣"
+msgstr "Douban"
+
+#: languages/functions.php:7
+msgid "淘宝网"
+msgstr "Taobao"
+
+#: languages/functions.php:8
+msgid "支付宝"
+msgstr "Alipay"
+
+#: languages/functions.php:9
+msgid "搜狐微博"
+msgstr "Sohu"
+
+#: languages/functions.php:10
+msgid "百度"
+msgstr "Baidu"
+
+#: languages/functions.php:11
+msgid "360"
+msgstr ""
+
+#: languages/functions.php:12
+msgid "天涯微博"
+msgstr "Tianya"
+
+#: languages/functions.php:13
+msgid "易信"
+msgstr "Yixin"
+
+#: languages/functions.php:14
+msgid "Twitter"
+msgstr ""
+
+#: languages/functions.php:15
+msgid "Facebook"
+msgstr ""
+
+#: languages/functions.php:16
+msgid "LinkedIn"
+msgstr ""
+
+#: languages/functions.php:17
+msgid "Google"
+msgstr ""
+
+#: languages/functions.php:18
+msgid "Yahoo"
+msgstr ""
+
+#: languages/functions.php:19
+msgid "Microsoft"
+msgstr ""
+
+#: modules/connect.php:122 modules/connect.php:150
+msgid "您可以用合作网站帐号登录"
+msgstr "Social Login"
+
+#: modules/connect.php:230 modules/connect.php:244
+msgid "同步评论到"
+msgstr "Share To"
+
+#: modules/connect.php:244
+msgid "选择(不同步)"
+msgstr "Select"
+
+#: modules/connect.php:296 modules/connect.php:371
+#, php-format
+msgid ""
+"获取用户授权信息失败，请重新<a href=\"%s\">登录</a> 或者 清除浏览器缓存再试!"
+msgstr ""
+"Failed to get the user authorization information, please try <a href=\"%s"
+"\">log in</a> again."
+
+#: modules/connect.php:309
+msgid "您已经注册过了，请直接登录。"
+msgstr "You have already registered, please login."
+
+#: modules/connect.php:329
+#, php-format
+msgid "该电子邮件地址 %s 已被注册。"
+msgstr "This email ( %s ) is already registered."
+
+#: modules/connect.php:331
+#, php-format
+msgid "该用户名 %s 已被注册。"
+msgstr "This username ( %s ) is already registered."
+
+#: modules/connect.php:414
+msgid "登录绑定"
+msgstr "Login Binding"
+
+#: modules/connect.php:416
+msgid "修改用户名"
+msgstr "Change username"
+
+#: modules/connect.php:416
+msgid "只允许修改一次!"
+msgstr "Only allowed to change again!"
+
+#: modules/connect.php:436
+#, php-format
+msgid "已绑定 %s"
+msgstr "%s has binding"
+
+#: modules/connect.php:436
+msgid "是否解除绑定? "
+msgstr "Whether to remove the binding?"
+
+#: modules/connect.php:451 modules/connect.php:459
+msgid "绑定后，您可以使用用户名或者用合作网站帐号登录本站，再次点击可以解绑。"
+msgstr ""
+"After binding, you can use the username or use social account login website, "
+"click again to cancel banding."
+
+#: modules/connect.php:457
+msgid "绑定登录帐号"
+msgstr "Binding account"
+
+#: modules/functions.php:1929
+msgid "分享到"
+msgstr "Share to "
+
+#: modules/functions.php:2507 modules/functions.php:2737
+msgid "取消置顶"
+msgstr "Cancel Sticky"
+
+#: modules/functions.php:2509 modules/functions.php:2740
+msgid "置顶"
+msgstr "Sticky"
+
+#: modules/functions.php:2539 modules/functions.php:2563
+msgid "回复"
+msgstr "Reply"
+
+#: modules/functions.php:2622
+msgid "同步到"
+msgstr "Share To"
+
+#: modules/functions.php:2628
+msgid "同步到微博[绑定]"
+msgstr "Share to SNS"
+
+#: modules/functions.php:2647
+msgid "顶"
+msgstr "Like"
+
+#: modules/functions.php:2650
+msgid "踩"
+msgstr "Dislike"
+
+#: modules/functions.php:2668 modules/functions.php:2673
+msgid "连接微博"
+msgstr "WP Connect"
+
+#: modules/functions.php:2670
+msgid "水脉烟香"
+msgstr "smyx"
+
+#: modules/functions.php:2697
+msgid "登录后才能评价！"
+msgstr "You must be logged in to voted."
+
+#: modules/functions.php:2715 modules/functions.php:2742
+msgid "请勿非法提交！"
+msgstr "Please do not submit without validation. "
+
+#: modules/functions.php:2729
+msgid "您已评价过啦！"
+msgstr "You have already voted."

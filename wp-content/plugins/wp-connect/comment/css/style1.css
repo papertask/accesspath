@@ -1,0 +1,211 @@
+/* 2016-3-11 21:30 */
+@CHARSET "utf-8";#pinglun-container{margin:0;padding:10px 0;clear:both}
+#pinglun-container *{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}
+#pinglun-container div,#pinglun-container ul,#pinglun-container ol,#pinglun-container li,#pinglun-container ul li,#pinglun-container ol li,#pinglun-container p,#pinglun-container img,#pinglun-container blockquote,#pinglun-container a,#pinglun-container span,#pinglun-container pre,#pinglun-container code,#pinglun-container strong,#pinglun-container sub,#pinglun-container sup,#pinglun-container fieldset,#pinglun-container form,#pinglun-container label,#pinglun-container input,#pinglun-container textarea,#pinglun-container select{border:0;padding:0;margin:0;vertical-align:baseline;font:12px/1.5 microsoft yahei,Arial,Helvetica,sans-serif;float:none;overflow:visible;transition:none;color:#222}
+#pinglun-container strong{font-weight:bold}
+#pinglun-container p{text-indent:0;clear:none}
+#pinglun-container span,#pinglun-container strong,#pinglun-container label,#pinglun-container input{display:inline}
+#pinglun-container label{position:static}
+#pinglun-container textarea:focus,#pinglun-container input:focus{outline:none}
+#pinglun-container ul,#pinglun-container ol,#pinglun-container ul li,#pinglun-container ol li{list-style:none;background:none}
+#pinglun-container input[type="checkbox"]{-webkit-appearance:checkbox;-moz-appearance:checkbox}
+#pinglun-container input,#pinglun-container button{-webkit-border-radius:0;border-radius:0}
+#pinglun-container a{text-decoration:none}
+#pinglun-container a:hover{text-decoration:none;color:#ee542a}
+#pinglun-container .hide{display:none}
+#pinglun-container .layout:after{content:'.';display:block;height:0;clear:both;visibility:hidden}
+#pinglun-container .layout{width:auto;*zoom:1}
+#pinglun-container #responds{margin:14px 0 0;padding:0}
+#pinglun-container #pinglun-list{margin:10px 0;padding:0}
+#pinglun-container #pinglun-list .comment{width:auto;background-color:transparent}
+#pinglun-box{width:auto;height:auto;margin:0 auto;position:relative}
+#pinglun-container .pl-head{height:22px;width:100%}
+#pinglun-container .pl-head-link{display:inline;float:right}
+#pinglun-container .pl-head-link li{display:inline;float:left;margin-left:5px}
+#pinglun-container .pl-head-share-link a,#pinglun-container .pl-bind-link a{background:url(../images/base.png) no-repeat 0 -193px;display:inline-block;padding-left:16px;height:16px}
+#pinglun-container .pl-bind-link a:hover{background-position:0 -210px}
+#responds{margin-top:14px}
+#responds .pl-form-head{position:absolute;top:0;left:0}
+#responds .pl-login-title,#responds .pl-login-list,#responds .pl-login-list li{display:inline;height:18px}
+#responds .pl-login-list li{margin-right:8px}
+#responds .pl-login-list li span{display:inline-block;vertical-align:bottom;vertical-align:top\9;line-height:18px;margin-right:2px}
+#pinglun-form .pl-form-avatar{float:left}
+#pinglun-form .pl-form-avatar img{max-width:none;border:0 none;height:36px;width:36px;-webkit-border-radius:3px;border-radius:3px}
+#pinglun-form .pl-input-area{background:url("../images/disqus_backgrounds.png") repeat-x scroll 0 -480px #FFF;border:1px solid #C1C1C1;margin-left:46px;position:relative;width:auto;-webkit-border-radius:4px;border-radius:4px;-moz-box-shadow:0 1px 4px rgba(0,0,0,0.16) inset;-webkit-box-shadow:0 1px 4px rgba(0,0,0,0.16) inset;box-shadow:0 1px 4px rgba(0,0,0,0.16) inset}
+#pinglun-form .pl-textarea{height:60px;padding:8px;position:relative}
+#pinglun-form .pl-input-area textarea{height:100%;width:100%;background:none repeat scroll 0 0 transparent;resize:none;overflow-y:hidden\9;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none}
+#pinglun-form .pl-input-area .placeholder{color:gray}
+#pinglun-form .pl-toolbar{background:url("../images/disqus_backgrounds.png") repeat-x scroll 0 -480px #FFF;border-top:1px dotted #D6D6D6;display:block;font-size:12px;height:32px;line-height:14px;position:relative;-webkit-border-radius:0 0 4px 4px;border-radius:0 0 4px 4px;-moz-box-shadow:0 1px 0 #FFF inset,0 -1px 3px rgba(0,0,0,0.04) inset;-webkit-box-shadow:0 1px 0 #FFF inset,0 -1px 3px rgba(0,0,0,0.04) inset;box-shadow:0 1px 0 #FFF inset,0 -1px 3px rgba(0,0,0,0.04) inset}
+#pinglun-form .pl-tool{margin:6px -1px 6px 0px}
+#pinglun-form .pl-tool.pl-tool-right{float:right;font-size:13px}
+#pinglun-form .pl-tool input{vertical-align:baseline;max-width:none;width:auto;height:auto}
+#pinglun-form .pl-tool label{display:inline;position:relative;left:0;top:-2px;cursor:pointer}
+#pinglun-form .pl-tool #pinglun_mail_notify,#pinglun-form .pl-tool #synctowbbd{margin-top:3px}
+#pinglun-form .pl-tool,#pinglun-form ul.pl-tool li{float:left;display:inline;padding-left:8px}
+#pinglun-form .pl-tool .pl-face-link,#pinglun-form .pl-tool .pl-image-link{background:url(../images/base.png) no-repeat 0 -64px;display:inline-block;height:16px;width:16px;vertical-align:middle;text-indent:-9999px;*float:left}
+#pinglun-form .pl-tool .pl-face-link:hover{background-position:0 -82px}
+#pinglun-form .pl-tool .pl-image-link{background-position:0 -99px}
+#pinglun-form .pl-tool .pl-image-link:hover{background-position:0 -115px}
+#pinglun-form .pl-tool .pl-tool-submit{float:right}
+#pinglun-container .pl-close{background:url(../images/base.png) no-repeat 0 -132px;display:inline-block;float:right;height:16px;width:16px;margin:8px 8px 0 0;padding:0}
+#pinglun-container .pl-close:hover{background-position:0 -149px}
+#pinglun-container #pinglun-submit{background:url("../images/disqus_backgrounds.png") repeat-x scroll 0 -250px transparent;border:1px solid #ACB2B8;color:#585C60;font-size:13px;font-weight:600;line-height:19px;margin:0;padding:6px 20px 7px;right:-1px;text-shadow:0 1px 0 rgba(255,255,255,0.9);top:-1px;z-index:2;-webkit-border-radius:0 0 4px 0;border-radius:0 0 4px 0;-moz-box-shadow:0 1px 2px rgba(72,76,80,0.25);-webkit-box-shadow:0 1px 2px rgba(72,76,80,0.25);box-shadow:0 1px 2px rgba(72,76,80,0.25)}
+#pinglun-container #pinglun-submit:hover{background-position:0 -310px}
+#pinglun-container .pl-info{margin-top:14px}
+#pinglun-container .pl-info-count{float:left;display:inline}
+#pinglun-container .pl_link_sina,#pinglun-container .pl_link_qq{color:#555}
+#pinglun-container .pl-order{float:right;display:inline;padding-right:2px}
+#pinglun-container .pl-order a{padding:2px}
+#pinglun-container .pl-order a.pl-order-current{color:#ee542a}
+#pinglun-list .comment>div{float:none;margin:0;padding:0}
+#pinglun-list .children,#pinglun-list .children li{height:auto;margin:0;padding:0;background-color:transparent}
+#pinglun-list li.comment{display:block;line-height:24px;padding:10px 0 0 46px;margin:0;position:relative;border:0}
+#pinglun-list li:last-child{border-bottom:none;margin-bottom:0}
+#pinglun-list .pinglun-meta{background:url("../images/disqus_backgrounds.png") repeat-x scroll 0 0 transparent;border:1px solid rgba(0,0,0,0.15);border:1px solid #d2d2d2\9;font-size:13px;line-height:14px;margin-bottom:10px;max-height:36px;overflow:hidden;padding:8px 9px;text-overflow:ellipsis;-webkit-border-radius:3px;border-radius:3px}
+#pinglun-list .avatar{display:inline;width:36px;height:36px;position:absolute;top:8px;left:0px;-webkit-border-radius:3px;border-radius:3px}
+#pinglun-list #responds .avatar{top:0px}
+#pinglun-list .pl-author{margin-right:8px}
+#pinglun-list .pl-post-author{color:#888}
+#pinglun-list .pinglun-body{font-size:13px;margin-bottom:14px}
+#pinglun-list .pinglun-body p{font-size:13px}
+#pinglun-list .pinglun-body img{max-width:100%}
+#pinglun-list .pinglun-body code,#pinglun-list .pinglun-body pre{display:block;padding:9.5px;margin:0 0 10px;border-radius:4px}
+#pinglun-list .stick-comment{background:url(../images/jing.png) right 22px no-repeat}
+#pinglun-list .pl-rating-up-bg,#pinglun-list .pl-rating-down-bg{text-indent:-9999px;display:inline-block;width:14px;height:14px;overflow:hidden;vertical-align:-3px;padding-right:3px}
+#pinglun-list .pl-rating-up-bg{background:url(../images/base.png) no-repeat 0 0}
+#pinglun-list .pl-rating-up-bg:hover{background-position:0 -16px}
+#pinglun-list .pl-rating-down-bg{background:url(../images/base.png) no-repeat 0 -32px}
+#pinglun-list .pl-rating-down-bg:hover{background-position:0 -48px}
+#pinglun-list .pl-rating-up-num,#pinglun-list .pl-rating-down-num{font-family:Arial;color:#ee542a}
+#pinglun-list i,#pinglun-list em{font-style:normal;position:static}
+#pinglun-list .pinglun-bottom-right{float:right}
+#pinglun-list .pinglun-bottom-right a{font-size:12px;margin-left:8px}
+#pinglun-list .pinglun-bottom-right em{font-size:12px;font-weight:normal}
+#pinglun-list .pinglun-bottom{font-size:12px;padding:0 12px 2px 0}
+#pinglun-list .pinglun-bottom,#pinglun-list .pinglun-bottom a,#pinglun-container .pl-powered-by a{color:#888}
+#pinglun-list .pinglun-bottom a:hover,#pinglun-container .pl-powered-by a:hover{color:#ee542a}
+#pinglun-list .pl-form-head{position:static;padding-bottom:14px}
+#pinglun-list #responds{position:relative;margin:10px 0}
+#pinglun-list #responds .avatar{position:static}
+#pinglun-list #cancel-pl-reply-link{position:absolute;padding:4px;top:0px;right:0px}
+#pinglun-list .pl-date,#pinglun-list .pl-from,#pinglun-list .comment-edit-link{color:#888;font-size:12px}
+#pinglun-list .pl-from{padding-left:8px}
+#pinglun-list .pinglun-meta .pl-pack-up,#pinglun-list .pinglun-meta .pl-open-up{background:url(../images/base.png) no-repeat 0 -180px;width:16px;height:12px;float:right;text-indent:-9999em;margin-top:3px}
+#pinglun-list .pinglun-meta .pl-pack-up{background-position:0 -180px}
+#pinglun-list .pinglun-meta .pl-open-up{background-position:0 -168px}
+#pinglun-list .pinglun-body .pl-reply-more{margin:5px 0;padding:0}
+#pinglun-list .pinglun-body .pl-pack-up,#pinglun-list .pinglun-body .pl-open-up{color:#ee542a}
+#pinglun-list .pl-selected{opacity:.5}
+#pinglun-list .stick-comment.pl-selected{opacity:1}
+#pinglun-list .pl-awaiting-moderation{color:#ee542a}
+#pinglun-container .pinglun-page{padding:20px 0px;text-align:right}
+#pinglun-container .page-numbers{padding:3px}
+#pinglun-container .pinglun-page .current{padding:0px 5px;color:#fff;background-color:#999;-webkit-border-radius:3px;border-radius:3px}
+#pinglun-container .pinglun-closed{text-align:center;background-color:#ddd;margin:10px 0;-webkit-border-radius:3px;border-radius:3px}
+#pinglun-container .pl-powered-by{font-size:12px;text-align:right;padding:10px 0}
+#pinglun-form #pinglun-face-area{height:auto;width:430px;background-color:#FFF;border:1px solid #B3B3B3;left:-1px;position:absolute;top:0;z-index:500;-webkit-border-radius:3px;border-radius:3px;-moz-box-shadow:0 1px 2px rgba(72,76,80,0.25);-webkit-box-shadow:0 1px 2px rgba(72,76,80,0.25);box-shadow:0 1px 2px rgba(72,76,80,0.25)}
+#pinglun-face-area .pl-face-head{width:auto;height:34px;background:url("../images/disqus_backgrounds.png") repeat-x scroll 0 0 transparent;border-bottom:#AAA solid 1px}
+#pinglun-face-area .pl-face-menu{width:auto;height:28px;float:left;margin:8px 0 0 8px}
+#pinglun-face-area .pl-face-menu li{width:auto;height:25px;padding:0 10px;line-height:23px;text-align:center;border:transparent solid 1px;border-bottom:none;font-size:13px;margin-right:5px;color:#777;cursor:pointer;float:left;display:inline}
+#pinglun-face-area .pl-face-menu li.pl-face-current{background:#fff;border:#aaa solid 1px;border-bottom:#FFF solid 1px;font-weight:700}
+#pinglun-face-area .pl-face-box-default,#pinglun-face-area .pl-face-box-ali,#pinglun-face-area .pl-face-box-lang{width:405px;height:auto;margin:0 auto;border-left:1px solid #e8e8e8;border-top:1px solid #e8e8e8}
+#pinglun-face-area .pl-face-box-default{background:url("../images/face_default.png") no-repeat scroll 0 0 transparent;height:190px}
+#pinglun-face-area .pl-face-box-ali{background:url("../images/face_ali.png") no-repeat scroll 0 0 transparent;height:135px}
+#pinglun-face-area .pl-face-box-lang{background:url("../images/face_langxiaohua.png") no-repeat scroll 0 0 transparent;height:162px}
+#pinglun-face-area .pl-face-list{background:none repeat scroll 0 0 #FFF;clear:both;padding:15px 0;z-index:400}
+#pinglun-face-area .pl-face-icon a{border-bottom:1px solid #e8e8e8;border-right:1px solid #e8e8e8;display:block;float:left;height:26px;width:26px;margin:0;padding:0;line-height:26px}
+#pinglun-face-area .pl-face-icon a:hover{border-bottom:1px solid #0095cd;border-right:1px solid #0095cd}
+#pinglun-login-area .pl-powered-by{display:inline}
+#pinglun-login-area{display:none;z-index:999999;position:fixed;vertical-align:middle;top:0px;left:0px;width:100%;height:100%}
+#pinglun-login-area table{width:100%;height:100%}
+#pinglun-login-area table tbody{display:table-row-group}
+#pinglun-login-area table tr{background:transparent}
+#pinglun-login-area table td.col{vertical-align:middle;background:transparent;float:none;display:table-cell}
+#pinglun-login-area .pl-popup-container{background:#fff;width:380px;margin-right:auto;margin-left:auto;padding:0;position:relative;z-index:400;border:1px solid #e0e0e0;-webkit-border-radius:3px;border-radius:3px;-webkit-border-shadow:0 4px 5px rgba(0,0,0,0.35);-moz-box-shadow:0 4px 5px rgba(0,0,0,0.35);box-shadow:0 4px 5px rgba(0,0,0,0.35)}
+#pinglun-login-area .pl-popup-title{font-size:14px;line-height:28px;margin-left:15px;color:#555}
+#pinglun-login-area .pl-close{position:absolute;right:0;top:0}
+#pinglun-login-area .pl-popup-login-list li{float:left;margin:0 5px 5px 0}
+#pinglun-login-area .pl-input-area{margin-left:0}
+#pinglun-login-area .pl-popup-body{width:auto;height:auto;padding:15px}
+#pinglun-login-area .pl-popup-guest{margin:15px 0 0}
+#pinglun-login-area .pl-popup-guest-title{font-size:14px;line-height:28px;margin:0;color:#555}
+#pinglun-login-area .pl-popup-guest-body{margin:10px 0 0}
+#pinglun-login-area .pl-popup-guest-login{width:200px;float:left}
+#pinglun-login-area .pl-popup-guest-login p{margin:0 0 6px 0}
+#pinglun-login-area .pl-popup-guest-login label{margin:0 7px 0 0}
+#pinglun-login-area .pl-popup-guest-login input{width:155px;height:28px;line-height:22px;border:1px solid #ccc}
+#pinglun-login-area #pinglun-submit{float:right;position:static;margin-right:10px;-webkit-border-radius:4px;border-radius:4px}
+#pinglun-login-area .pl-popup-gravata{background:url('../images/gravata.gif') no-repeat center 0;width:124px;padding:25px 0 5px 17px;float:right;border-left:1px solid #ccc}
+#pinglun-login-area .pl-popup-gravata a{color:#2F89BC}
+#pinglun-container .pl-bound,#pinglun-container .pl-unbound,#pinglun-container .pl-round{width:30px;height:30px;float:left;cursor:pointer;text-indent:-9999px}
+#pinglun-container .pl-icon-30 .pl-login-title{font-size:18px}
+#pinglun-container .pl-login-list .pl-bound,#pinglun-container .pl-login-list .pl-round{float:none;display:inline-block;vertical-align:top}
+.pl-round{background:url('../images/icon_30_round.gif?ver=20160311') no-repeat;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;-o-border-radius:50%;border-radius:50%}
+.pl-bound{background:url('../images/icon_30.gif?ver=20150419') no-repeat}
+.pl-unbound{background:url('../images/icon_30_gray.gif?ver=20150419') no-repeat}
+.pl-bound b{display:block;overflow:hidden;width:15px;height:14px;background:url(../images/base.png) no-repeat 0 -232px}
+.pl-icon30-qzone{background-position:0 0}
+.pl-icon30-sina{background-position:0 -30px}
+.pl-icon30-qq{background-position:0 -60px}
+.pl-icon30-sohu{background-position:0 -90px}
+.pl-icon30-netease{background-position:0 -120px}
+.pl-icon30-renren{background-position:0 -150px}
+.pl-icon30-kaixin001{background-position:0 -180px}
+.pl-icon30-douban{background-position:0 -210px}
+.pl-icon30-tianya{background-position:0 -240px}
+.pl-icon30-twitter{background-position:0 -270px}
+.pl-icon30-facebook{background-position:0 -300px}
+.pl-icon30-google{background-position:0 -330px}
+.pl-icon30-msn{background-position:0 -360px}
+.pl-icon30-yahoo{background-position:0 -390px}
+.pl-icon30-alipay{background-position:0 -420px}
+.pl-icon30-taobao{background-position:0 -450px}
+.pl-icon30-baidu{background-position:0 -480px}
+.pl-icon30-360{background-position:0 -510px}
+.pl-icon30-linkedin{background-position:0 -540px}
+.pl-icon30-yixin{background-position:0 -570px}
+.pl-icon30-weixin{background-position:0 -600px}
+.pl-icon30-github{background-position:0 -630px}
+.pl-icon30-username{background-position:0 -660px}
+#pinglun-container .pl-icon,#pinglun-container .pl-icon-gray{text-decoration:none;display:inline-block;padding-left:19px;height:16px}
+.pl-icon{background:url('../images/icon_16.gif?ver=20150419') no-repeat 0 0}
+.pl-icon-gray{background:url('../images/icon_16_gray.gif?ver=20150419') no-repeat 0 0}
+.pl-icon-qzone{background-position:0 0px}
+.pl-icon-sina{background-position:0 -16px}
+.pl-icon-qq{background-position:0 -32px}
+.pl-icon-sohu{background-position:0 -48px}
+.pl-icon-netease{background-position:0 -64px}
+.pl-icon-renren{background-position:0 -80px}
+.pl-icon-kaixin001{background-position:0 -96px}
+.pl-icon-douban{background-position:0 -112px}
+.pl-icon-tianya{background-position:0 -128px}
+.pl-icon-twitter{background-position:0 -144px}
+.pl-icon-facebook{background-position:0 -160px}
+.pl-icon-google{background-position:0 -176px}
+.pl-icon-msn{background-position:0 -192px}
+.pl-icon-yahoo{background-position:0 -208px}
+.pl-icon-alipay{background-position:0 -224px}
+.pl-icon-taobao{background-position:0 -240px}
+.pl-icon-baidu{background-position:0 -256px}
+.pl-icon-360{background-position:0 -272px}
+.pl-icon-linkedin{background-position:0 -288px}
+.pl-icon-yixin{background-position:0 -304px}
+.pl-icon-weixin{background-position:0 -320px}
+.pl-icon-username{background-position:0 -336px}
+.pl-icon-github{background-position:0 -352px}
+@media only screen and (max-width:380px){
+#pinglun-login-area .pl-popup-container{width:100%}
+#pinglun-login-area .pl-popup-gravata{display:none}
+}
+@media only screen and (max-width:480px){
+#pinglun-container{padding:5px 0}
+#pinglun-container #pinglun-list li.comment ul ul.children,#pinglun-container #pinglun-list li.comment ul .pl-form{margin-left:-36px}
+#pinglun-container #pinglun-list li.comment{clear:both;padding-left:36px}
+#pinglun-login-area .pl-input-area{margin-left:36px}
+#pinglun-list .avatar,#pinglun-form .pl-form-avatar img{width:28px;height:28px;top:10px;-webkit-border-radius:2px;border-radius:2px}
+#pinglun-form .pl-input-area{margin-left:38px}
+#pinglun-list .pl-author{margin-right:0px}
+#pinglun-list .pl-from{display:none}
+#pinglun-form .pl-tool li.pl-tool-face,#pinglun-form .pl-tool li.pl-tool-image,#pinglun-form .pl-tool li.pl-tool-mail{display:none}
+#pinglun-form.pl-tool .pl-tool-sync{float:left;padding:0px}
+}
