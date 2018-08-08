@@ -126,12 +126,12 @@ if ($debug) {
     echo t_exec($start, $end);
 }
 
-if ($cached && $display_powered_by_redis) {
+//if ($cached && $display_powered_by_redis) {
 	// You should move this CSS to your CSS file and change the: float:right;margin:20px 0;
-	echo "<style>#redis_powered{float:right;margin:20px 0;background:url(http://images.staticjw.com/jim/3959/redis.png) 10px no-repeat #fff;border:1px solid #D7D8DF;padding:10px;width:190px;}
+//	echo "<style>#redis_powered{float:right;margin:20px 0;background:url(http://images.staticjw.com/jim/3959/redis.png) 10px no-repeat #fff;border:1px solid #D7D8DF;padding:10px;width:190px;}
 	#redis_powered div{width:190px;text-align:right;font:10px/11px arial,sans-serif;color:#000;}</style>";
-	echo "<a href=\"http://www.jimwestergren.com/wordpress-with-redis-as-a-frontend-cache/\" style=\"text-decoration:none;\"><div id=\"redis_powered\"><div>Page generated in<br/> ".t_exec($start, $end)." sec</div></div></a>";
-}
+//	echo "<a href=\"http://www.jimwestergren.com/wordpress-with-redis-as-a-frontend-cache/\" style=\"text-decoration:none;\"><div id=\"redis_powered\"><div>Page generated in<br/> ".t_exec($start, $end)." sec</div></div></a>";
+//}
 
 // time diff
 function t_exec($start, $end) {
