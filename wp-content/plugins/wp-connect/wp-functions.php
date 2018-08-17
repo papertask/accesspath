@@ -832,7 +832,7 @@ function media_avatar($media, $uid, $size = 0) {
 			break;
 		case "qzone":
 			$size = $size > 64 ? 100 : 40;
-			$avatar = strpos($uid, '://') ? str_replace('http:', 'https:', $uid) : 'https://q.qlogo.cn/qqapp/' . $uid;
+			$avatar = strpos($uid, '://') ? str_replace('http:', 'https:', $uid) : 'https://thirdqq.qlogo.cn/qqapp/' . $uid;
 			$avatar .= '/' . $size;
 			$avatar = str_replace('/40/' . $size, '/' . $size, $avatar);
 			break;
@@ -1566,60 +1566,21 @@ function kses_img($str) {
 // 社会化分享按钮，共54个
 function wp_social_share_title() {
 	$socialShare_title = array("qqconnect" => "QQ好友",
-		"qzone" => "QQ空间",
 		"sina" => "新浪微博",
 		"wechat" => "微信",
-		"qq" => "腾讯微博",
+		"qzone" => "QQ空间",
 		"douban" => "豆瓣",
+		"youdao" => "有道书签",
 		"renren" => "人人网",
 		"kaixin001" => "开心网",
-		//"sohu" => "搜狐微博",
-		//"t163" => "网易微博",
-		//"taojianghu" => "我的淘宝",
 		"tieba" => "百度贴吧",
-		"feixin" => "飞信",
-		//"hibaidu" => "百度空间",
 		"baidu" => "百度搜藏",
-		"tianya" => "天涯社区",
 		"twitter" => "Twitter",
 		"gplus" => "Google+",
-		"pengyou" => "腾讯朋友",
-		"qqshuqian" => "QQ书签",
 		"facebook" => "Facebook",
 		"linkedin" => "LinkedIn",
-		"shequ51" => "51社区",
-		"shouji" => "手机",
-		"zhuaxia" => "抓虾",
-		"baishehui" => "搜狐白社会",
-		"ifeng" => "凤凰微博",
-		"fanfou" => "饭否",
-		"msn" => "MSN",
-		"sc115" => "115收藏",
-		"digu" => "嘀咕",
-		"tongxue" => "同学网",
-		"youdao" => "有道书签",
 		"google" => "Google",
-		"delicious" => "Delicious",
-		"buzz" => "谷歌Buzz",
-		"digg" => "Digg",
-		"yahoo" => "Yahoo!",
-		"live" => "微软live",
-		"hexun" => "和讯微博",
-		"xianguo" => "鲜果",
-		"zuosa" => "做啥",
-		"shuoke" => "139说客",
-		"myspace" => "聚友网",
-		"waakee" => "挖客",
-		"leshou" => "乐收",
-		"mop" => "猫扑推客",
-		"cnfol" => "中金微博",
-		"douban9" => "豆瓣9点",
-		"dream163" => "梦幻人生",
-		"taonan" => "淘男网",
-		"club189" => "天翼社区",
-		"baohe" => "宝盒网",
-		"renmaiku" => "人脉库",
-		"ushi" => "优士网");
+		"digg" => "Digg");
 	return array_merge(apply_filters('socialShare_title', array()), $socialShare_title);
 } 
 // 分享设置 V1.1 (V1.6.7)
@@ -1627,7 +1588,7 @@ function wp_social_share_options() {
 	$wptm_share = get_option('wptm_share');
 	$social = wp_social_share_title();
 	$options = array_keys($social);
-	$select = ($wptm_share['select']) ? explode(",", $wptm_share['select']) : array_slice($options, 0, 18);
+	$select = ($wptm_share['select']) ? explode(",", $wptm_share['select']) : array_slice($options, 0, 15);
 	$options = array_merge(array_intersect($select, $options), array_diff($options, $select));
 	$selects = array_combine($select, $select);
 	wp_connect_js('js/drag.js');
@@ -1873,7 +1834,7 @@ function show_share_button($id, $a) {
 	if ($wptm_share['share']) {
 		$account = array_intersect_key(media_sync(), $wptm_share['share']);
 	} else {
-		$account = array(// 'qzone' => 'QQ空间',
+		$account = array(
 			'sina' => '新浪微博',
 			'qq' => '腾讯微博',
 			);

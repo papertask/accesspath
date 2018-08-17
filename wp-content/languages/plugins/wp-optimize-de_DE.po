@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WP-Optimize - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-05-07 16:48:16+0000\n"
+"PO-Revision-Date: 2018-08-08 17:05:02+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -63,7 +63,7 @@ msgstr "Vor dem Speichern musst du die derzeit unvollständigen Einstellungen ve
 
 #: wp-optimize.php:528
 msgid "Are you sure you want to remove this logging destination?"
-msgstr "Möchten Sie das Ziel für die Protokolldaten wirklich entfernen?"
+msgstr "Möchtest du das Ziel für die Protokolldaten wirklich entfernen?"
 
 #: templates/admin-settings-logging.php:39
 msgid "Inactive"
@@ -109,7 +109,7 @@ msgstr "Wie viele letzte Datensätze solle gespeichert werden?"
 
 #: includes/class-updraft-email-logger.php:37
 msgid "Enter email for logs here"
-msgstr "Gebe hier die E-Mail Adresse für Protokolle ein"
+msgstr "Gib hier die E-Mail Adresse für Protokolle ein"
 
 #. Plugin URI of the plugin/theme
 msgid "https://getwpo.com"
@@ -157,7 +157,7 @@ msgstr "Premium / Plugin Familie"
 
 #: wp-optimize.php:278
 msgid "New feature: WP-Optimize Premium can now optimize all sites within a multisite install, not just the main one."
-msgstr "Neues Feature: WP-Optimize Premium kann jetzt alle Websiten innerhalb einer Netzwerk-Installation optimieren, nicht nur die Haupt-Website."
+msgstr "Neue Funktion: WP-Optimize kann ab sofort alle Webseiten innerhalb einer Netzwerk-Installation optimieren, nicht nur die Hauptinstallation."
 
 #: wp-optimize.php:268
 msgid "WP-Optimize (Free) has been de-activated, because WP-Optimize Premium is active."
@@ -175,6 +175,14 @@ msgstr "Suche nach Tabelle"
 msgid "Premium WooCommerce extensions"
 msgstr "Premium WooCommerce Erweiterungen"
 
+#: templates/notices/thanks-for-using-main-dash.php:34
+msgid "Add style and flare easily with beautifully-designed sliders with the #1 WP slider plugin"
+msgstr "Mit dem #1 WP-Slider-Plugin fügst du Stil und Animationen einfach mit wunderschön gestalteten Slidern hinzu"
+
+#: templates/notices/thanks-for-using-main-dash.php:30
+msgid "Simple & secure login with a wave of your phone"
+msgstr "Einfache und sichere Anmeldung mit einem Wisch auf Ihrem Smartphone"
+
 #: templates/notices/thanks-for-using-main-dash.php:30
 msgid "Keyy:"
 msgstr "Keyy:"
@@ -190,6 +198,14 @@ msgstr "%s vereinfacht Backups und die Wiederherstellung. Es ist das weltweit be
 #: templates/notices/thanks-for-using-main-dash.php:18
 msgid "WP-Optimize Premium:"
 msgstr "WP-Optimize Premium:"
+
+#: templates/notices/thanks-for-using-main-dash.php:18
+msgid "%s offers powerful extra features and flexibility, and WordPress multisite support."
+msgstr "%s bietet leistungsstarke zusätzliche Funktionen und Flexibilität mit WordPress Netzwerk-Unterstützung."
+
+#: templates/notices/thanks-for-using-main-dash.php:14
+msgid "Super-charge and secure your WordPress site with our other top plugins:"
+msgstr "Verbessere und sichere deine WordPress Website mit unseren anderen Top-Plugins:"
 
 #: templates/notices/thanks-for-using-main-dash.php:7
 msgid "Thank you for installing WP-Optimize!"
@@ -208,9 +224,21 @@ msgstr "Anmelden mit Keyy ist einfach. Nachdem die Benutzer die App auf ihrem Sm
 msgid "Using innovative RSA public-key cryptography, Keyy is highly secure and prevents password-based hacking risks such as brute-forcing, key-logging, shoulder-surfing and connection sniffing."
 msgstr "Mit der innovativen RSA Public-Key-Kryptographie ist Keyy äußerst sicher und verhindert passwortbasierte Hacker-Risiken, wie Brute-Forcing, Key-Logging, Shoulder-Surfing  und Connection-Sniffing."
 
+#: templates/may-also-like.php:320
+msgid "Keyy is a unique 2-factor authentication plugin that allows you to log in to your website with just a wave of your smartphone. It represents the ultimate UX, doing away with the need for usernames, passwords and other 2FA tokens."
+msgstr "Keyy bietet ein einzigartiges 2-Faktor-Authentifizierungs-Plugin, mit dem du dich mit nur einem Wisch auf deinem Smartphone in deine Website einloggen kannst. Es stellt die ultimative Benutzeroberfläche dar und macht Benutzernamen, Passwörter und andere 2-Faktor-Authentifizierung-Token überflüssig."
+
+#: templates/may-also-like.php:317
+msgid "Keyy – instant &amp; secure logins with a wave of your phone"
+msgstr "Keyy - Sofortiges &amp; sicheres Einloggen mit einem Wisch auf deinem Smartphone"
+
 #: templates/may-also-like.php:316
 msgid "Keyy Two Factor Authentication"
 msgstr "Keyy Zwei-Faktor-Authentifizierung"
+
+#: templates/may-also-like.php:309
+msgid "Easily improve the look of your site, your conversion rate and bottom line."
+msgstr "Verbessere einfach das Aussehen deiner Website, deiner Conversion-Rate und Ihr Endergebnis."
 
 #: templates/may-also-like.php:306
 msgid "With Metaslider, creating them couldn’t be easier: simply select images from your WordPress Media Library, drag and drop them into place. You can then set the slide captions, links and SEO fields all from one page."
@@ -223,6 +251,10 @@ msgstr "Slider machen eine Website sofort auffälliger und ansprechender."
 #: templates/may-also-like.php:300
 msgid "With Metaslider, WordPress’ most popular slider plugin, you can add unique, SEO-optimizing slideshow to your blog or website in a matter of seconds!"
 msgstr "Mit Metaslider, dem populärsten Slider-Plugin von WordPress, kannst du deinem Blog oder deiner Website innerhalb weniger Sekunden eine einzigartige, SEO-optimierte Diashow hinzufügen!"
+
+#: templates/may-also-like.php:297
+msgid "MetaSlider - hold visitors’ attention to increase conversion and profits."
+msgstr "MetaSlider - Erregt die Aufmerksamkeit deiner Besucher zur Erhöhung von Umsatz und Gewinne."
 
 #: templates/may-also-like.php:296
 msgid "Meta Slider"
@@ -273,9 +305,17 @@ msgstr "Hacking, Serverabstürze, zweifelhafte Updates oder einfache Benutzerfeh
 msgid "If you’ve got a WordPress website, you need a backup."
 msgstr "Wenn du eine WordPress-Website hast, benötigst du ein Backup."
 
+#: templates/may-also-like.php:254
+msgid "UpdraftPlus – the ultimate protection for your site, hard work and business"
+msgstr "UpdraftPlus - Der ultimative Schutz für deine Website, harte Arbeit und Geschäft"
+
 #: templates/may-also-like.php:236
 msgid "Our other plugins"
 msgstr "Unsere anderen Plugins"
+
+#: templates/may-also-like.php:212
+msgid "Get your specific queries addressed directly by our experts"
+msgstr "Stelle deine spezifischen Anfragen direkt an unsere Experten"
 
 #: templates/may-also-like.php:210 templates/may-also-like.php:211
 msgid "Premium support"
@@ -335,6 +375,10 @@ msgstr "Optimierung einzelner Tabellen"
 #: templates/may-also-like.php:202 templates/may-also-like.php:215
 msgid "No"
 msgstr "Nein"
+
+#: templates/may-also-like.php:121
+msgid "Optimize any site (or combination of sites) on your WordPress Multisite or network"
+msgstr "Optimiere beliebige Webseiten (oder eine Auswahl von Webseiten) deines WordPress Netzwerkes"
 
 #: templates/may-also-like.php:119 templates/may-also-like.php:120
 #: templates/may-also-like.php:158
@@ -414,6 +458,10 @@ msgstr "WP-Optimize Premium"
 msgid "Free"
 msgstr "Free"
 
+#: templates/may-also-like.php:9
+msgid "Ask a pre-sales question"
+msgstr "Stelle deine Fragen vor dem Kauf"
+
 #: templates/may-also-like.php:3
 msgid "WP-Optimize free / premium comparison"
 msgstr "WP-Optimize Free / Premium Vergleich"
@@ -490,6 +538,23 @@ msgid_plural "%s orphaned attachments found"
 msgstr[0] " %s verwaiste Anlage gefunden"
 msgstr[1] " %s verwaiste Anlagen gefunden"
 
+#: optimizations/attachments.php:33 optimizations/attachments.php:73
+#: optimizations/autodraft.php:28 optimizations/autodraft.php:63
+#: optimizations/commentmeta.php:33 optimizations/commentmeta.php:90
+#: optimizations/orphandata.php:16 optimizations/orphandata.php:45
+#: optimizations/pingbacks.php:16 optimizations/pingbacks.php:44
+#: optimizations/postmeta.php:20 optimizations/postmeta.php:48
+#: optimizations/revisions.php:24 optimizations/revisions.php:59
+#: optimizations/spam.php:48 optimizations/spam.php:117
+#: optimizations/trackbacks.php:16 optimizations/trackbacks.php:44
+#: optimizations/transient.php:30 optimizations/transient.php:160
+#: optimizations/trash.php:31 optimizations/trash.php:94
+#: optimizations/unapproved.php:24 optimizations/unapproved.php:65
+msgid "across %s site"
+msgid_plural "across %s sites"
+msgstr[0] "auf %s Seite"
+msgstr[1] "auf %s Seiten"
+
 #: optimizations/attachments.php:30
 msgid "%s orphaned attachment deleted"
 msgid_plural "%s orphaned attachments deleted"
@@ -522,6 +587,10 @@ msgstr "Nutze diesen Rabattcode:"
 msgid "Black Friday - 20% off WP-Optimize Premium until November 30th"
 msgstr "Black Friday - 20% Rabatt auf WP-Optimize Premium bis zum 25. Dezember "
 
+#: includes/wp-optimize-notices.php:138
+msgid "With MetaSlider, you can easily add style and flare with beautifully-designed sliders."
+msgstr "Mit MetaSlider kannst du einfach Stil und Animation mit wunderschön gestalteten Schiebereglern hinzufügen oder ändern."
+
 #: includes/wp-optimize-notices.php:137
 msgid "MetaSlider: the world's #1 slider plugin from the makers of WP-Optimize"
 msgstr "MetaSlider: das weltweit führende Slider-Plugin von den Machern von WP-Optimize"
@@ -545,6 +614,10 @@ msgstr "WP-Optimize Premium bietet beispiellose Auswahl und Flexibilität"
 #: includes/wp-optimize-notices.php:105
 msgid "WP-Optimize Premium's multisite feature includes a locking system that restricts optimization commands to users with the right permissions."
 msgstr "Die WP-Optimize Premium Netzwerkfunktion umfasst ein Sperrsystem, das Optimierungsbefehle auf Benutzer mit den richtigen Berechtigungen beschränkt."
+
+#: includes/wp-optimize-notices.php:104
+msgid "Manage a multisite installation? Need extra control?"
+msgstr "Verwaltest du eine Multisite-Installation? Benötigst du mehr Kontrolle?"
 
 #: includes/wp-optimize-notices.php:94
 msgid "WP-Optimize Premium features an advanced scheduling system that allows you to run optimizations at the quietest time of day (or night)."
@@ -585,11 +658,11 @@ msgstr "Bitte lade eine gültige Einstellungsdatei hoch."
 
 #: wp-optimize.php:524
 msgid "Optimization complete"
-msgstr "Optimierung abgeschlossen"
+msgstr "Optimieren abgeschlossen"
 
 #: wp-optimize.php:523
 msgid "An unexpected response was received."
-msgstr "Eine unerwartete Antwort wurde empfangen."
+msgstr "Eine unerwartete Anfrage wurde empfangen."
 
 #: templates/optimize-table.php:26
 msgid "You may wish to run a backup before optimizing."
@@ -597,19 +670,19 @@ msgstr "Vielleicht möchtest du eine Sicherung vor der Optimierung durchführen.
 
 #: templates/optimize-table.php:26
 msgid "Items marked in red perform more intensive database operations. In very rare cases, if your database server happened to crash or be forcibly powered down at the same time as an optimization operation was running, data might be corrupted. "
-msgstr "Rot markierte Elemente führen intensivere Datenbankoperationen durch. In sehr seltenen Fällen, wenn dein Datenbank-Server zum Absturz gebracht wurde oder zwangsweise heruntergefahren werden würde, während ein Optimierungsvorgang ausgeführt wird, können Daten beschädigt werden."
+msgstr "Elemente, die rot markiert sind, stehen für extrem intensive Datenbankoperationen. In sehr seltenen Fällen, wenn beispielsweise dein Datenbankserver abstürzt oder einem Stromausfall ausgesetzt ist, während ein Optimierungsvorgang ausgeführt wird, kann es zur Beschädigung deiner  Daten kommen."
 
 #: templates/take-a-backup.php:78
 msgid "UpdraftPlus is installed but currently not active. Please activate UpdraftPlus to backup the database before optimization."
-msgstr "UpdraftPlus ist installiert aber derzeit nicht aktiviert. Bitte aktiviere UpdraftPlus, um die Datenbank vor der Optimierung zu sichern."
+msgstr "UpdraftPlus wurde installiert, ist aber derzeit nicht aktiviert. Bitte aktiviere UpdraftPlus, damit ein Backup vor der Optimierung der Datenbank durchgeführt werden kann."
 
 #: templates/take-a-backup.php:75
 msgid "Please update UpdraftPlus to the latest version."
-msgstr "Bitte aktualisiere UpdraftPlus auf die neueste Version."
+msgstr "Bitte aktualisiere UpdraftPlus auf die aktuellste Version."
 
 #: templates/take-a-backup.php:75
 msgid "UpdraftPlus needs to be updated to 1.12.33 or higher in order to backup the database before optimization."
-msgstr "UpdraftPlus muss auf 1.12.33 oder höher aktualisiert werden, um die Datenbank vor der Optimierung zu sichern."
+msgstr "UpdraftPlus muss mindestens auf Version 1.12.33 oder höher aktualisiert werden, damit die Datenbank vor der Optimierung gesichert werden kann."
 
 #: templates/take-a-backup.php:71
 msgid "Follow this link to install UpdraftPlus, to take a backup before optimization"
@@ -621,15 +694,15 @@ msgstr "Erstelle ein Backup mit UpdraftPlus, bevor du dies tust"
 
 #: templates/take-a-backup.php:17
 msgid "Backup before running optimizations"
-msgstr "Sicherung vor dem Ausführen von Optimierungen"
+msgstr "Backup vor dem Ausführen von Optimierungen"
 
 #: templates/admin-settings-logging.php:3
 msgid "Logging settings"
-msgstr "Protokollierungseinstellungen"
+msgstr "Einstellungen für die Protokollierung"
 
 #: templates/admin-settings-general.php:19
 msgid "Whether manually or on a schedule, these settings apply whenever a relevant optimization is run."
-msgstr "Egal,ob manuell oder nach einem Zeitplan, gelten diese Einstellungen, wenn eine entsprechende Optimierung ausgeführt wird."
+msgstr "Ob manuell oder nach Zeitplan, diese Einstellungen gelten immer dann, wenn eine relevante Optimierung ausgeführt wird."
 
 #: optimizations/spam.php:159 optimizations/spam.php:164
 msgid "Remove spam and trashed comments"
@@ -661,7 +734,7 @@ msgstr "Optimieren"
 
 #: templates/optimize-table.php:17
 msgid "Run all selected optimizations"
-msgstr "Alle ausgewählten Optimierungen ausführen"
+msgstr "Alle ausgewählten Optimierungen durchführen"
 
 #: templates/optimize-table.php:14
 msgid "Optimizations"
@@ -685,11 +758,11 @@ msgstr "UpdraftPlus"
 
 #: templates/notices/thanks-for-using-main-dash.php:5
 msgid "Dismiss (for %s months)"
-msgstr "Verwerfen (für %s Monate)"
+msgstr "Ausblenden (für %s Monate)"
 
 #: templates/notices/horizontal-notice.php:39
 msgid "Go there"
-msgstr "Gehe dorthin"
+msgstr "Dem Link folgen"
 
 #: templates/notices/horizontal-notice.php:37
 msgid "Sign up"
@@ -697,7 +770,7 @@ msgstr "Anmelden"
 
 #: templates/notices/horizontal-notice.php:35
 msgid "Get UpdraftPlus"
-msgstr "Hole UpdraftPlus"
+msgstr "UpdraftPlus erwerben"
 
 #: templates/notices/horizontal-notice.php:33
 msgid "Review WP-Optimize"
@@ -705,20 +778,20 @@ msgstr "Bewerte WP-Optimize"
 
 #: templates/notices/horizontal-notice.php:31
 msgid "Get UpdraftCentral"
-msgstr "Hole UpdraftCentral"
+msgstr "UpdraftCentral erwerben"
 
 #: templates/notices/horizontal-notice.php:16
 #: templates/notices/horizontal-notice.php:18
 msgid "Dismiss"
-msgstr "Verwerfen"
+msgstr "Ausblenden"
 
 #: templates/notices/horizontal-notice.php:6
 msgid "notice image"
-msgstr "Hinweisbild"
+msgstr "Bild beachten"
 
 #: templates/admin-settings-sidebar.php:25
 msgid "Use these buttons to enable or disable any future comments on all your previously published posts."
-msgstr "Verwende diese Schaltflächen, um zukünftige Kommentare in allen früher veröffentlichten Beiträgen zu aktivieren oder deaktivieren."
+msgstr "Verwende diese Schaltflächen, um zukünftige Kommentare in allen zuvor veröffentlichten Beiträgen zu aktivieren oder deaktivieren."
 
 #: templates/admin-settings-sidebar.php:23
 msgid "Comments"
@@ -726,7 +799,7 @@ msgstr "Kommentare"
 
 #: templates/admin-settings-sidebar.php:12
 msgid "Use these buttons to enable or disable any future trackbacks on all your previously published posts."
-msgstr "Verwende diese Schaltflächen, um zukünftige Trackbacks in allen früher veröffentlichten Beiträgen zu aktivieren oder deaktivieren."
+msgstr "Verwende diese Schaltflächen, um zukünftige Trackbacks in allen zuvor veröffentlichten Beiträgen zu aktivieren oder deaktivieren."
 
 #: templates/admin-settings-sidebar.php:9
 msgid "Trackbacks"
@@ -758,11 +831,11 @@ msgstr "Bitte helfe WP-Optimize, indem du eine positive Bewertung bei wordpress.
 
 #: includes/wp-optimize-notices.php:63
 msgid "Like WP-Optimize and can spare one minute?"
-msgstr "Magst du WP-Optimize und kannst eine Minute entbehren?"
+msgstr "Magst du WP-Optimize und kannst du eine Minute entbehren?"
 
 #: includes/wp-optimize-notices.php:42
 msgid "UpdraftPlus is the world's most trusted backup plugin from the owners of WP-Optimize"
-msgstr "UpdraftPlus ist das weltweit zuverlässigste Backup-Plugin von den Besitzern von WP-Optimize"
+msgstr "UpdraftPlus ist das Backup-Plugin von den Besitzern von WP-Optimize, den weltweit am meisten vertraut wird"
 
 #: includes/wp-optimize-notices.php:41
 msgid "Make sure you backup before you optimize your database"
@@ -770,11 +843,11 @@ msgstr "Stelle sicher, dass du ein Backup erstellst, bevor du Deine Datenbank op
 
 #: includes/class-wp-optimizer.php:467
 msgid "Trackbacks have now been enabled on all current and previously published posts."
-msgstr "Trackbacks sind nun für alle aktuellen und zuvor veröffentlichten Beiträge aktiviert."
+msgstr "Trackbacks sind nun für alle aktuellen und zuvor veröffentlichten Beiträge aktiviert. "
 
 #: includes/class-wp-optimizer.php:464
 msgid "Trackbacks have now been disabled on all current and previously published posts."
-msgstr "Trackbacks sind nun für alle aktuellen und zuvor veröffentlichten Beiträge deaktiviert."
+msgstr "Trackbacks sind nun für alle aktuellen und zuvor veröffentlichten Beiträge deaktiviert. "
 
 #: includes/class-wp-optimizer.php:457
 msgid "Comments have now been enabled on all current and previously published posts."

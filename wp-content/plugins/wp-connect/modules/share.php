@@ -10,11 +10,10 @@ function wp_connect_share_wechat_html($url, $text = '') {
 	if ($wptm_share['qrcode_api'] && strpos($wptm_share['qrcode_api'], '%url%')) {
 		$qrurl = strtr($wptm_share['qrcode_api'], array('%url%' => $url));
 	} else {
-		// $qrurl = 'http://s.jiathis.com/qrcode.php?url=' . $url;
-		// $qrurl = 'https://pan.baidu.com/share/qrcode?w=180&h=180&url=' . $url;
-		$qrurl = 'http://gqrcode.alicdn.com/img?type=hv&w=180&h=180&el=q&text=' . $url;
+		// $qrurl = 'http://qr.liantu.com/api.php?w=180&m=1&text=' . $url;
+		$qrurl = 'https://bshare.optimix.asia/barCode?site=weixin&url=' . $url;
 	} 
-	return '<a href="javasrcipt:;" onClick=\'var wcs=document.getElementById("wcs-image");if(!wcs.innerHTML) wcs.innerHTML="<"+"img s"+"rc=\"' . $qrurl . '\" alt=\"二维码加载失败\" width=180 height=180 />";document.getElementById("wp-connect-share-wechat").style.display="block";return false\' class="wechat" title="分享到微信" rel="nofollow" >' . $text . '</a><div id="wp-connect-share-wechat" style="display:none"><div class="masking"></div><table><tr><td class="col"><div class="wcs-box"><span class="wcs-close" onClick="document.getElementById(\'wp-connect-share-wechat\').style.display=\'none\'" title="关闭">×</span><div class="wcs-body"><div class="wcs-title">分享到微信朋友圈:</div><div id="wcs-image"></div><div>打开微信，点击底部的“发现”，<br />使用“<strong>扫一扫</strong>”打开网页后，点击右上角，可分享到朋友圈。</div></div></div></td></tr></table></div>';
+	return '<a href="javasrcipt:;" onClick=\'var wcs=document.getElementById("wcs-image");if(!wcs.innerHTML) wcs.innerHTML="<im"+"g s"+"rc=\"' . $qrurl . '\" alt=\"二维码加载失败\" width=180 height=180 />";document.getElementById("wp-connect-share-wechat").style.display="block";return false\' class="wechat" title="分享到微信" rel="nofollow" >' . $text . '</a><div id="wp-connect-share-wechat" style="display:none"><div class="masking"></div><table><tr><td class="col"><div class="wcs-box"><span class="wcs-close" onClick="document.getElementById(\'wp-connect-share-wechat\').style.display=\'none\'" title="关闭">×</span><div class="wcs-body"><div class="wcs-title">分享到微信朋友圈:</div><div id="wcs-image"></div><div align="center">打开微信，点击右上角的<strong>十</strong>，<br />使用<strong>扫一扫</strong>打开网页后，<br />点击右上角<strong>···</strong>可分享到朋友圈。</div></div></div></td></tr></table></div>';
 } 
 
 function wp_social_share($number = '') {
@@ -91,7 +90,6 @@ function wp_selection_share() {
 <span id="t_btn_share" style="display:none; position:absolute; cursor:pointer;">
 <a href="javascript:;" rel="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=$post_url&desc=[sharetxt]&pics=$pic[0]"><img title="将选中内容分享到QQ空间" src="{$plugin_url}/images/share/share_qzone.gif"></a>
 <a href="javascript:;" rel="http://service.weibo.com/share/share.php?title=[sharetxt]&appkey=$key_sina&pic=$pic[0]&url=$post_url"><img title="将选中内容分享到新浪微博" src="{$plugin_url}/images/share/share_sina.gif"></a>
-<a href="javascript:;" rel="http://v.t.qq.com/share/share.php?title=[sharetxt]&appkey=$key_qq&pic=$pic[1]&url=$post_url"><img title="将选中内容分享到腾讯微博" src="{$plugin_url}/images/share/share_qq.gif"></a>
 </span>
 EOT;
 wp_connect_js('js/share.js');

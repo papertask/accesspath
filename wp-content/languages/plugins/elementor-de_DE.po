@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Elementor Page Builder - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-07-16 22:11:13+0000\n"
+"PO-Revision-Date: 2018-08-10 08:04:05+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -56,15 +56,15 @@ msgstr "Stil zurückgesetzt"
 msgid "Style Pasted"
 msgstr "Stil eingefügt"
 
-#: includes/widgets/video.php:346
+#: includes/widgets/video.php:308
 msgid "Logo"
 msgstr "Logo"
 
-#: includes/widgets/video.php:334
+#: includes/widgets/video.php:296
 msgid "Modest Branding"
 msgstr "Bescheidenes Branding"
 
-#: includes/widgets/video.php:320
+#: includes/widgets/video.php:282
 msgid "Video Info"
 msgstr "Video-Info"
 
@@ -191,11 +191,11 @@ msgctxt "Filter Control"
 msgid "Blur"
 msgstr "Verwischen"
 
-#: includes/controls/groups/background.php:379 includes/widgets/video.php:241
+#: includes/controls/groups/background.php:379 includes/widgets/video.php:221
 msgid "Specify an end time (in seconds)"
 msgstr "Eine Endzeit (in Sekunden) angeben"
 
-#: includes/controls/groups/background.php:377 includes/widgets/video.php:239
+#: includes/controls/groups/background.php:377 includes/widgets/video.php:219
 msgid "End Time"
 msgstr "Endzeit"
 
@@ -220,7 +220,7 @@ msgid "Back to WordPress Editor"
 msgstr "Zurück zum WordPress Editor"
 
 #. translators: %s: Document title
-#: core/documents-manager.php:320
+#: core/documents-manager.php:321
 msgid "Elementor %s"
 msgstr "Elementor %s"
 
@@ -310,7 +310,7 @@ msgstr "Seitenlayout"
 msgid "Current"
 msgstr "Aktuell"
 
-#: includes/widgets/video.php:823
+#: includes/widgets/video.php:785
 msgid "Play Video"
 msgstr "Video abspielen"
 
@@ -329,7 +329,7 @@ msgstr "Füge Templates hinzu und verwende sie auf der gesamten Website. Du kann
 #. translators: %s: Template type label.
 #: includes/template-library/sources/local.php:1231
 msgid "Create Your First %s"
-msgstr "Deine erste %s erstellen "
+msgstr "Dein erstes %s erstellen "
 
 #: includes/template-library/sources/local.php:1151
 msgid "All"
@@ -413,7 +413,7 @@ msgid "Groove"
 msgstr "Groove"
 
 #. translators: %s: Document title
-#: core/base/document.php:663 core/settings/page/model.php:126
+#: core/base/document.php:645 core/settings/page/model.php:126
 #: includes/editor-templates/panel.php:63
 msgid "%s Settings"
 msgstr "%s Einstellungen"
@@ -450,7 +450,7 @@ msgstr "Beitragsbild"
 msgid "Body Style"
 msgstr "Body-Stil"
 
-#: core/base/document.php:110
+#: core/base/document.php:92
 msgid "Document"
 msgstr "Dokument"
 
@@ -530,11 +530,11 @@ msgstr "Veröffentlichte bearbeiten"
 msgid "Edit Draft"
 msgstr "Entwurf bearbeiten"
 
-#: includes/widgets/video.php:388
+#: includes/widgets/video.php:350
 msgid "When you turn on privacy mode, YouTube won't store information about visitors on your website unless they play the video."
 msgstr "Wenn du den privaten Modus aktivierst, wird YouTube so lange keine Informationen über die Besucher deiner Website speichern, bis diese das Video abspielen."
 
-#: includes/widgets/video.php:386
+#: includes/widgets/video.php:348
 msgid "Privacy Mode"
 msgstr "Privater Modus"
 
@@ -572,16 +572,16 @@ msgid "Active Icon"
 msgstr "Aktiv-Icon"
 
 #. translators: 1: Editing date, 2: Author display name
-#: core/base/document.php:876
+#: core/base/document.php:858
 msgid "Last edited on %1$s by %2$s"
 msgstr "Zuletzt am %1$s von %2$s bearbeitet"
 
 #. translators: 1: Saving date, 2: Author display name
-#: core/base/document.php:873
+#: core/base/document.php:855
 msgid "Draft saved on %1$s by %2$s"
 msgstr "Entwurf am %1$s von %2$s gespeichert"
 
-#: core/base/document.php:868
+#: core/base/document.php:850
 msgctxt "revision date format"
 msgid "M j, H:i"
 msgstr "M j, H:i"
@@ -946,11 +946,11 @@ msgstr "Dokumentation"
 msgid "History"
 msgstr "Verlauf"
 
-#: core/settings/general/model.php:168 includes/widgets/video.php:661
+#: core/settings/general/model.php:168 includes/widgets/video.php:623
 msgid "UI Hover Color"
 msgstr "UI Farbe bei Mauszeigerkontakt"
 
-#: core/settings/general/model.php:161 includes/widgets/video.php:650
+#: core/settings/general/model.php:161 includes/widgets/video.php:612
 msgid "UI Color"
 msgstr "UI Farbe"
 
@@ -962,12 +962,12 @@ msgstr "Bearbeitet"
 msgid "Editing Started"
 msgstr "Bearbeitung begonnen"
 
-#: includes/widgets/video.php:611
+#: includes/widgets/video.php:573
 msgctxt "Text Shadow Control"
 msgid "Shadow"
 msgstr "Schatten"
 
-#: includes/widgets/video.php:287
+#: includes/widgets/video.php:249
 msgid "Mute"
 msgstr "Stumm schalten"
 
@@ -1073,7 +1073,7 @@ msgstr "Z-Index"
 #: includes/elements/column.php:258 includes/elements/column.php:414
 #: includes/elements/column.php:521 includes/elements/section.php:561
 #: includes/elements/section.php:717 includes/elements/section.php:823
-#: includes/widgets/common.php:216 includes/widgets/common.php:323
+#: includes/widgets/common.php:216 includes/widgets/common.php:320
 #: includes/widgets/google-maps.php:227 includes/widgets/image-box.php:315
 #: includes/widgets/image.php:370
 msgid "Transition Duration"
@@ -1167,7 +1167,7 @@ msgstr "Aktivieren"
 msgid "Disable"
 msgstr "Deaktivieren"
 
-#: core/base/document.php:398
+#: core/base/document.php:380
 msgid "Status"
 msgstr "Status"
 
@@ -1285,7 +1285,7 @@ msgstr "In den Vordergrund"
 #: core/settings/general/manager.php:208 core/settings/general/model.php:138
 #: includes/widgets/image-carousel.php:214
 #: includes/widgets/image-gallery.php:156 includes/widgets/image.php:196
-#: includes/widgets/video.php:508 includes/widgets/video.php:626
+#: includes/widgets/video.php:470 includes/widgets/video.php:588
 msgid "Lightbox"
 msgstr "Lightbox"
 
@@ -1411,7 +1411,7 @@ msgstr "Navigations-Breite"
 #: includes/elements/column.php:486 includes/elements/section.php:546
 #: includes/elements/section.php:671 includes/elements/section.php:788
 #: includes/widgets/button.php:326 includes/widgets/common.php:201
-#: includes/widgets/common.php:288 includes/widgets/google-maps.php:212
+#: includes/widgets/common.php:285 includes/widgets/google-maps.php:212
 #: includes/widgets/icon-box.php:285 includes/widgets/icon-list.php:378
 #: includes/widgets/icon-list.php:436 includes/widgets/icon.php:241
 #: includes/widgets/image-box.php:336 includes/widgets/image.php:337
@@ -1621,12 +1621,12 @@ msgid "Global"
 msgstr "Global"
 
 #: includes/widgets/icon-list.php:228 includes/widgets/text-editor.php:122
-#: includes/widgets/video.php:511
+#: includes/widgets/video.php:473
 msgid "Off"
 msgstr "Aus"
 
 #: includes/widgets/icon-list.php:229 includes/widgets/text-editor.php:123
-#: includes/widgets/video.php:512
+#: includes/widgets/video.php:474
 msgid "On"
 msgstr "An"
 
@@ -1984,7 +1984,7 @@ msgid "Color Palettes"
 msgstr "Farbpaletten"
 
 #: includes/elements/column.php:707 includes/elements/section.php:1167
-#: includes/widgets/common.php:103 includes/widgets/video.php:711
+#: includes/widgets/common.php:103 includes/widgets/video.php:673
 msgid "Entrance Animation"
 msgstr "Eingangsanimation"
 
@@ -2173,7 +2173,7 @@ msgstr "Breiter"
 msgid "General"
 msgstr "Generell"
 
-#: includes/widgets/video.php:427
+#: includes/widgets/video.php:389
 msgid "Intro Byline"
 msgstr "Autorenzeile"
 
@@ -2241,23 +2241,23 @@ msgstr "Du musst die 'the_content'-Funktion im aktuellen Template aufrufen, dami
 msgid "Sorry, the content area was not found in your page."
 msgstr "Entschuldigung, aber auf dieser Seite wurde kein Inhaltsbereich gefunden. "
 
-#: includes/widgets/audio.php:243 includes/widgets/video.php:360
+#: includes/widgets/audio.php:243 includes/widgets/video.php:322
 msgid "Controls Color"
 msgstr "Farbe der Schaltflächen"
 
-#: includes/widgets/video.php:413
+#: includes/widgets/video.php:375
 msgid "Intro Portrait"
 msgstr "Intro-Portrait"
 
-#: includes/widgets/video.php:399
+#: includes/widgets/video.php:361
 msgid "Intro Title"
 msgstr "Intro-Titel"
 
-#: includes/widgets/video.php:295
+#: includes/widgets/video.php:257
 msgid "Loop"
 msgstr "Endlosschleife"
 
-#: includes/widgets/video.php:270
+#: includes/widgets/video.php:232
 msgid "Video Options"
 msgstr "Video-Optionen"
 
@@ -2270,7 +2270,7 @@ msgid "Vimeo"
 msgstr "Vimeo"
 
 #: includes/widgets/video.php:44 includes/widgets/video.php:103
-#: includes/widgets/video.php:526
+#: includes/widgets/video.php:488
 msgid "Video"
 msgstr "Video"
 
@@ -2395,7 +2395,7 @@ msgstr "Dies ist die Überschrift"
 msgid "Add your custom class WITHOUT the dot. e.g: my-class"
 msgstr "Füge deine eigene Klasse OHNE den Punkt hinzu, z. B.: meine-klasse "
 
-#: includes/elements/section.php:1268 includes/widgets/common.php:358
+#: includes/elements/section.php:1268 includes/widgets/common.php:352
 msgid "Attention: The display settings (show/hide for mobile, tablet or desktop) will only take effect once you are on the preview or live page, and not while you're in editing mode in Elementor."
 msgstr "Achtung: Die Anzeige-Einstellungen (Zeige/Verstecke für Handy, Tablet, Desktop) wirken sich nur aus, sobald du auf der Vorschau- oder Live-Seite bist, und nicht während du dich in Elementor im Bearbeitungs-Modus befindest."
 
@@ -2477,23 +2477,23 @@ msgstr "Großschreibung"
 msgid "Elementor.com"
 msgstr "Elementor.com"
 
-#: includes/widgets/video.php:495 includes/widgets/video.php:558
+#: includes/widgets/video.php:457 includes/widgets/video.php:520
 msgid "Play Icon"
 msgstr "Start-Icon"
 
-#: includes/widgets/video.php:452 includes/widgets/video.php:459
+#: includes/widgets/video.php:414 includes/widgets/video.php:421
 msgid "Image Overlay"
 msgstr "Bild-Überlagerung"
 
-#: includes/widgets/video.php:306
+#: includes/widgets/video.php:268
 msgid "Player Controls"
 msgstr "Player-Buttons"
 
-#: includes/widgets/video.php:373
+#: includes/widgets/video.php:335
 msgid "Suggested Videos"
 msgstr "Vorgeschlagene Videos"
 
-#: includes/widgets/video.php:534
+#: includes/widgets/video.php:496
 msgid "Aspect Ratio"
 msgstr "Seitenverhältnis"
 
@@ -2856,7 +2856,7 @@ msgstr "Lücke"
 #: includes/widgets/social-icons.php:250 includes/widgets/tabs.php:246
 #: includes/widgets/tabs.php:294 includes/widgets/toggle.php:271
 #: includes/widgets/toggle.php:359 includes/widgets/toggle.php:432
-#: includes/widgets/video.php:571
+#: includes/widgets/video.php:533
 msgid "Color"
 msgstr "Farbe"
 
@@ -2906,7 +2906,7 @@ msgid "Counter"
 msgstr "Zähler"
 
 #: includes/widgets/audio.php:144 includes/widgets/image-carousel.php:278
-#: includes/widgets/video.php:279
+#: includes/widgets/video.php:241
 msgid "Autoplay"
 msgstr "Automatisch abspielen"
 
@@ -2926,12 +2926,12 @@ msgstr "Bild wählen"
 #: includes/widgets/image-box.php:214 includes/widgets/image-carousel.php:496
 #: includes/widgets/image.php:42 includes/widgets/image.php:101
 #: includes/widgets/image.php:224 includes/widgets/testimonial.php:249
-#: includes/widgets/video.php:469
+#: includes/widgets/video.php:431
 msgid "Image"
 msgstr "Bild"
 
 #: includes/elements/column.php:439 includes/elements/section.php:743
-#: includes/widgets/common.php:241
+#: includes/widgets/common.php:238
 msgid "Border"
 msgstr "Rahmen"
 
@@ -2963,7 +2963,7 @@ msgstr "Icon"
 #: includes/widgets/icon.php:289 includes/widgets/image-carousel.php:398
 #: includes/widgets/image-carousel.php:460
 #: includes/widgets/social-icons.php:291 includes/widgets/text-editor.php:260
-#: includes/widgets/video.php:586
+#: includes/widgets/video.php:548
 msgid "Size"
 msgstr "Größe"
 
@@ -3017,22 +3017,22 @@ msgstr "Button"
 msgid "Edit"
 msgstr "Bearbeiten"
 
-#: includes/elements/section.php:1303 includes/widgets/common.php:393
+#: includes/elements/section.php:1303 includes/widgets/common.php:387
 msgid "Hide On Mobile"
 msgstr "Auf Smartphones verbergen"
 
-#: includes/elements/section.php:1290 includes/widgets/common.php:380
+#: includes/elements/section.php:1290 includes/widgets/common.php:374
 msgid "Hide On Tablet"
 msgstr "Auf Tablets verbergen"
 
-#: includes/elements/section.php:1277 includes/widgets/common.php:367
+#: includes/elements/section.php:1277 includes/widgets/common.php:361
 msgid "Hide On Desktop"
 msgstr "Auf Computern verbergen"
 
 #: includes/elements/column.php:464 includes/elements/column.php:501
 #: includes/elements/section.php:767 includes/elements/section.php:803
-#: includes/widgets/button.php:392 includes/widgets/common.php:266
-#: includes/widgets/common.php:303 includes/widgets/icon-box.php:422
+#: includes/widgets/button.php:392 includes/widgets/common.php:263
+#: includes/widgets/common.php:300 includes/widgets/icon-box.php:422
 #: includes/widgets/icon.php:355 includes/widgets/image-carousel.php:554
 #: includes/widgets/image-gallery.php:255 includes/widgets/image.php:408
 #: includes/widgets/social-icons.php:362 includes/widgets/testimonial.php:287
@@ -3046,7 +3046,7 @@ msgstr "Eckenradius"
 msgid "Description"
 msgstr "Beschreibung"
 
-#: core/base/document.php:380 includes/widgets/accordion.php:232
+#: core/base/document.php:362 includes/widgets/accordion.php:232
 #: includes/widgets/alert.php:205 includes/widgets/counter.php:182
 #: includes/widgets/counter.php:238 includes/widgets/heading.php:101
 #: includes/widgets/heading.php:108 includes/widgets/heading.php:215
@@ -3059,7 +3059,7 @@ msgstr "Titel"
 #: core/settings/general/model.php:154 includes/widgets/alert.php:164
 #: includes/widgets/button.php:309 includes/widgets/button.php:344
 #: includes/widgets/progress.php:193 includes/widgets/tabs.php:225
-#: includes/widgets/video.php:639
+#: includes/widgets/video.php:601
 msgid "Background Color"
 msgstr "Hintergrundfarbe"
 
@@ -3070,11 +3070,11 @@ msgstr "Hintergrundfarbe"
 #: includes/widgets/audio.php:201 includes/widgets/audio.php:212
 #: includes/widgets/audio.php:223 includes/widgets/audio.php:234
 #: includes/widgets/counter.php:159 includes/widgets/image-gallery.php:282
-#: includes/widgets/progress.php:138 includes/widgets/video.php:308
-#: includes/widgets/video.php:322 includes/widgets/video.php:348
-#: includes/widgets/video.php:375 includes/widgets/video.php:401
-#: includes/widgets/video.php:415 includes/widgets/video.php:429
-#: includes/widgets/video.php:461
+#: includes/widgets/progress.php:138 includes/widgets/video.php:270
+#: includes/widgets/video.php:284 includes/widgets/video.php:310
+#: includes/widgets/video.php:337 includes/widgets/video.php:363
+#: includes/widgets/video.php:377 includes/widgets/video.php:391
+#: includes/widgets/video.php:423
 msgid "Hide"
 msgstr "Verstecken"
 
@@ -3085,11 +3085,11 @@ msgstr "Verstecken"
 #: includes/widgets/audio.php:202 includes/widgets/audio.php:213
 #: includes/widgets/audio.php:224 includes/widgets/audio.php:235
 #: includes/widgets/counter.php:158 includes/widgets/image-gallery.php:281
-#: includes/widgets/progress.php:137 includes/widgets/video.php:309
-#: includes/widgets/video.php:323 includes/widgets/video.php:349
-#: includes/widgets/video.php:376 includes/widgets/video.php:402
-#: includes/widgets/video.php:416 includes/widgets/video.php:430
-#: includes/widgets/video.php:462
+#: includes/widgets/progress.php:137 includes/widgets/video.php:271
+#: includes/widgets/video.php:285 includes/widgets/video.php:311
+#: includes/widgets/video.php:338 includes/widgets/video.php:364
+#: includes/widgets/video.php:378 includes/widgets/video.php:392
+#: includes/widgets/video.php:424
 msgid "Show"
 msgstr "Zeigen"
 
@@ -3161,7 +3161,7 @@ msgstr "Rahmenfarbe"
 #: includes/widgets/progress.php:159 includes/widgets/social-icons.php:231
 #: includes/widgets/spacer.php:128 includes/widgets/tabs.php:137
 #: includes/widgets/testimonial.php:201 includes/widgets/text-editor.php:208
-#: includes/widgets/toggle.php:135 includes/widgets/video.php:441
+#: includes/widgets/toggle.php:135 includes/widgets/video.php:403
 msgid "View"
 msgstr "Anzeige"
 
@@ -3267,7 +3267,7 @@ msgstr "Rollen ausschließen"
 msgid "Post Types"
 msgstr "Beitragsarten"
 
-#: core/base/document.php:372
+#: core/base/document.php:354
 msgid "General Settings"
 msgstr "Allgemeine Einstellungen"
 
@@ -3322,7 +3322,7 @@ msgid "Visibility"
 msgstr "Sichtbarkeit"
 
 #: includes/elements/column.php:156 includes/elements/section.php:451
-#: includes/widgets/video.php:692
+#: includes/widgets/video.php:654
 msgid "Content Position"
 msgstr "Position des Inhalts"
 
@@ -3376,7 +3376,7 @@ msgstr "Spaltenabstand"
 
 #: core/settings/general/model.php:100 includes/elements/section.php:295
 #: includes/elements/section.php:309 includes/settings/settings.php:322
-#: includes/widgets/video.php:673
+#: includes/widgets/video.php:635
 msgid "Content Width"
 msgstr "Inhaltsbreite"
 
@@ -3434,7 +3434,7 @@ msgstr "Margin"
 #: includes/widgets/image-gallery.php:301 includes/widgets/image.php:139
 #: includes/widgets/image.php:452 includes/widgets/social-icons.php:213
 #: includes/widgets/testimonial.php:185 includes/widgets/text-editor.php:150
-#: includes/widgets/video.php:696
+#: includes/widgets/video.php:658
 msgid "Center"
 msgstr "Center"
 
@@ -3490,7 +3490,7 @@ msgid "Structure"
 msgstr "Struktur"
 
 #: includes/elements/section.php:1239 includes/managers/controls.php:295
-#: includes/widgets/common.php:350
+#: includes/widgets/common.php:344
 msgid "Responsive"
 msgstr "Responsiv"
 
@@ -3641,9 +3641,9 @@ msgstr "Neuen Abschnitt hinzufügen"
 msgid "Loading"
 msgstr "Wird geladen"
 
-#. #-#-#-#-#  elementor-code.pot (Elementor 2.1.3)  #-#-#-#-#
+#. #-#-#-#-#  elementor-code.pot (Elementor 2.1.6)  #-#-#-#-#
 #. Plugin Name of the plugin/theme
-#: core/documents-manager.php:316 includes/admin.php:233 includes/admin.php:422
+#: core/documents-manager.php:317 includes/admin.php:233 includes/admin.php:422
 #: includes/admin.php:599 includes/editor-templates/editor-wrapper.php:29
 #: includes/editor.php:537 includes/settings/settings.php:69
 #: includes/settings/settings.php:70 includes/settings/settings.php:464
@@ -3696,7 +3696,7 @@ msgstr "Zeilenhöhe"
 #: includes/elements/section.php:600 includes/elements/section.php:649
 #: includes/elements/section.php:753 includes/elements/section.php:1184
 #: includes/widgets/button.php:290 includes/widgets/common.php:120
-#: includes/widgets/common.php:184 includes/widgets/common.php:251
+#: includes/widgets/common.php:184 includes/widgets/common.php:248
 #: includes/widgets/google-maps.php:195 includes/widgets/heading.php:259
 #: includes/widgets/icon-box.php:243 includes/widgets/icon.php:199
 #: includes/widgets/image-box.php:282 includes/widgets/image.php:303
@@ -3978,7 +3978,7 @@ msgstr "Rechts"
 #: includes/elements/section.php:882 includes/widgets/icon-box.php:189
 #: includes/widgets/icon-box.php:479 includes/widgets/image-box.php:167
 #: includes/widgets/image-box.php:415 includes/widgets/testimonial.php:163
-#: includes/widgets/video.php:697
+#: includes/widgets/video.php:659
 msgid "Top"
 msgstr "Oben"
 

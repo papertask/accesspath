@@ -4,7 +4,7 @@ Donate link: https://wptao.com/wp-connect.html
 Tags: comments,post,wp-connect,twitter,qq,sina,tencent,qzone,taobao,msn,tianya,netease,sohu,douban,baidu,renren,kaixin001,wbto,google,yahoo,connect,腾讯微博,新浪微博,搜狐微博,网易微博,人人网,开心网,豆瓣,天涯,百度,淘宝,微博通,登录,登陆,连接,同步,gtalk机器人,灯鹭,社会化评论,Denglu,Denglu评论,评论,disqus,pinglunla,uyan,youyan,duoshuo,widget,share
 Requires at least: 3.5
 Tested up to: 4.9.5
-Stable tag: 4.6.4
+Stable tag: 4.6.5
 
 支持使用社交帐号登录网站，同步文章、评论到微博/SNS，把微博评论回推到网站，使用微信搜索WordPress文章等。
 
@@ -67,6 +67,13 @@ WordPress连接微博 插件于2011年1月20日发布第1版，距离至今两�
 == Screenshots ==
 
 == Changelog ==
+
+= 4.6.5 =
+
+2018/8/8
+
+删除社交分享中已经失效的网站，只保留国内外常用的社交网站（16个）。
+其他一些优化。
 
 = 4.6.4 =
 

@@ -5,10 +5,10 @@ Author: 水脉烟香
 Author URI: https://wptao.com/smyx
 Plugin URI: https://wptao.com/wp-connect.html
 Description: 支持使用QQ、新浪微博、微信等20个社交帐号登录您的网站。同步文章信息到10大微博和社区。同步全文到新浪博客、人人网、豆瓣等。使用本地化社会化评论框（包括新回复邮件通知）及微博评论回推到网站。支持数据统计，使用社会化分享按钮等。
-Version: 4.6.4
+Version: 4.6.5
 */
 
-define('WP_CONNECT_VERSION', '4.6.4');
+define('WP_CONNECT_VERSION', '4.6.5');
 $wpurl = get_bloginfo('wpurl');
 $siteurl = get_bloginfo('url'); // 首页
 $wptm_options = get_option('wptm_options');
@@ -279,11 +279,19 @@ function wp_redirect_url() {
 		return '&redirect_url=' . urlencode($schema . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']);
 	} 
 } 
+// 语言 V4.6.5
+function wp_connect_locale($locale) {
+	global $wptm_options;
+    return $wptm_options['lang'] ? $wptm_options['lang'] : $locale;
+}
 add_action('init', 'wp_connect_init');
 function wp_connect_init() { // 4.4
-	global $pagenow;
-	if (!is_admin() || $pagenow == 'profile.php'){
-		load_plugin_textdomain( 'wp-connect', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
+	global $wptm_options, $pagenow;
+	if (!$wptm_options['lang'] || $wptm_options['lang'] != 'zh_CN') {
+		if (!is_admin() || $pagenow == 'profile.php') {
+			add_filter('locale', 'wp_connect_locale', 11);
+			load_plugin_textdomain( 'wp-connect', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
+		}
 	}
 	// WPMU 不同站点的用户权限
 	if (is_multisite() && is_user_logged_in() && !current_user_can('read')) {
@@ -1561,14 +1569,23 @@ foreach ($appkeys as $kk1 => $vv1) {
 		  <div id="tab_menu-1-main" class="sub-navigation-container">
 			<div class="option">
 			  <h3>插件授权</h3>
-			  <div class="custom-option">
+			  <div class="custom-option1">
 				<?php if ($is_network) { // WPMU
 					echo '<span class="text-tips">该插件已经被 《<a href="' . get_site_option('siteurl') . '" target="_blank">' . get_site_option('site_name') . '</a>》授权允许在整个网络使用，插件提供者: <a href="https://wptao.com/wp-connect.html" target="_blank">水脉烟香</a>。</span>';
 				} else {
-					echo '<span class="custom-heading">填写插件授权码：</span><input type="text" class="inputs" name="authorize_code" size="50" value="' . $authorize['authorize_code'] . '" /> ' . $code_yes;
+					echo '<h4>填写插件授权码：</h4><input type="text" class="inputs" name="authorize_code" size="50" value="' . $authorize['authorize_code'] . '" /> ' . $code_yes;
 					if (is_multisite()) echo '<span class="text-tips">您正在使用WPMU，您可以在“管理网络”的插件页面“整个网络启用“Wordpress连接微博”，然后在 管理网络 -> 设置 -> <a href="' . admin_url('network/settings.php?page=wp-connect') . '">Wordpress连接微博</a> 填写插件“根域名”授权码。<a href="https://wptao.com/wp-connect.html" target="_blank">如何获得根域名授权码</a></span>';
 				}?>
 			  </div>
+			</div>
+			<div class="option">
+			  <h4>选择语言</h4>
+			  <select name="wptm_options[lang]" class="option-select">
+			    <option value=""<?php selected($wptm_options['lang'] == '');?>>站点默认语言</option>
+				<option value="zh_CN"<?php selected($wptm_options['lang'] == 'zh_CN');?>>简体中文</option>
+				<option value="zh_TW"<?php selected($wptm_options['lang'] == 'zh_TW');?>>繁體中文</option>
+				<option value="en_US"<?php selected($wptm_options['lang'] == 'en_US');?>>English (United States)</option>
+			  </select>
 			</div>
 			<div class="option">
 			  <h3>数据库表</h3>
@@ -1646,19 +1663,18 @@ foreach ($appkeys as $kk1 => $vv1) {
 			  <h2><a target="_blank" href="https://wptao.com/question-category/wordpress">问题求助</a></h2>
 			  <ul class="list">
 				  <li>联系QQ: 3249892 <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=3249892&site=qq&menu=yes" rel="nofollow"><img border="0" src="http://wpa.qq.com/pa?p=2:3249892:42" alt="在线咨询" title="在线咨询"></a></li>
+				  <li>微信号: <a target="_blank" href="https://img.wptao.com/3/small/62579065gy1fqx11pit2mj20by0bygme.jpg">wptaocom</a></li>
 				  <li>新浪微博: <a target="_blank" href="http://weibo.com/smyx">@水脉烟香</a></li>
-				  <li>腾讯微博: <a target="_blank" href="http://t.qq.com/smyxapp">@smyxapp</a></li>
 				  <li>购买插件: <a target="_blank" href="https://wptao.com">https://wptao.com</a></li>
 				  <li>推广返利: <a target="_blank" href="https://wptao.com/tuiguang">https://wptao.com/tuiguang</a></li>
 			  </ul>
+			  <h2>产品推荐</h2>
+			  <?php wptao_tuijian();?>
 			</div>
 		  </div>
 		  <div id="tab_menu-8-log" class="sub-navigation-container">
 			<div class="option">
 			<h3>提醒：插件每年收取最新售价25%的升级费用，首年免费，不升级不收费，可以永久使用。</h3>
-			<h2>4.6.2</h2>
-			<p>2017/8/15</p>
-			<p>修复新浪微博默认key可能出现的不同步的bug</p>
 			<p><a target="_blank" href="https://wptao.com/wp-connect.html#Changelog">查看更多日志</a></p>
 			</div>
 		  </div>
@@ -1670,10 +1686,10 @@ foreach ($appkeys as $kk1 => $vv1) {
 		<p>Follow me:</p>
 		<ul>
 		  <li><a target="_blank" href="http://weibo.com/smyx" title="新浪微博"><img src="<?php echo $plugin_url;?>/images/logo-weibo.png" /></a></li>
-		  <li><a target="_blank" href="http://t.qq.com/smyxapp" title="腾讯微博"><img src="<?php echo $plugin_url;?>/images/logo-qqweibo.png" /></a></li>
-		  <li><a href="javascript:;" id="wxqr_code"><img src="<?php echo $plugin_url;?>/images/logo-weixin.png" title="微信" /></a></li>
+		  <li><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=3249892&site=qq&menu=yes" title="QQ:3249892"><img src="<?php echo $plugin_url;?>/images/logo-qq.png" /></a></li>
+		  <li><a href="javascript:;" id="wxqr_code"><img src="<?php echo $plugin_url;?>/images/logo-weixin.png" title="微信号:wptaocom" /></a></li>
 		</ul>
-		<div class="wxqr_code" style="display:none;"> <div class="code_con"> <span><img src="<?php echo $plugin_url;?>/images/weixinQRCode.png"></span> <b>加水脉烟香为微信好友</b> </div></div>
+		<div class="wxqr_code" style="display:none;"> <div class="code_con"> <span><img src="<?php echo $plugin_url;?>/images/wptaocom.png"></span> <b>加水脉烟香为微信好友</b> </div></div>
 	  </div>
 	  <input type="hidden" name="action" value="save" />
 	  <input type="hidden" name="wptm_connect[regid]" value="<?php echo $wptm_connect['regid']; ?>" />

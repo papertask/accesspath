@@ -125,7 +125,7 @@ function wp_connect_button($style = 0, $text = 1, $echo = 1) {
 	if ($style == 3) { // 文本
 		$button .= '<!-- 使用社交帐号登录 来自 WordPress连接微博 插件 -->';
 		if ($text) {
-			$button .= '<div class="t_login_text t_login_text' . $login_loaded . '">'.__('您可以用合作网站帐号登录', 'wp-connect').':</div>';
+			$button .= '<div class="wp-connect-login-button"><div class="t_login_text t_login_text' . $login_loaded . '">'.__('您可以用合作网站帐号登录', 'wp-connect').':</div>';
 			$div = 'div';
 		} else {
 			$div = 'span';
@@ -137,6 +137,7 @@ function wp_connect_button($style = 0, $text = 1, $echo = 1) {
 			$button .= "<a href=\"{$login_link}\" title=\"{$vaule}\" class=\"connect_{$media}\" rel=\"nofollow\">{$vaule}</a> ";
 		} 
 		$button .= '</' . $div . '>';
+		if ($text) $button .= '</div>';
 	} else { // 图标
 		if ($style == 1) {
 			$btn = 'small';
@@ -149,11 +150,11 @@ function wp_connect_button($style = 0, $text = 1, $echo = 1) {
 			} 
 		} 
 		if ($login_loaded == 1) {
-			$button .= '<style type="text/css">.t_login_text{margin:0; padding:0;}.t_login_button{margin:0; padding: 5px 0;}.t_login_button a{margin:0; padding-right:3px;border:0;line-height:25px}.t_login_button a img{display:inline; border:none;}</style>';
+			$button .= '<style type="text/css">.wp-connect-login-button,.t_login_text{margin:0;padding:0}.t_login_button{margin:0;padding:5px 0}.t_login_button a{margin:0;padding-right:3px;border:0;line-height:25px}.t_login_button a img{display:inline;border:none}</style>';
 		} 
 		$button .= '<!-- 使用社交帐号登录 来自 WordPress连接微博 插件 -->';
 		if ($text) {
-			$button .= '<div class="t_login_text t_login_text' . $login_loaded . '">'.__('您可以用合作网站帐号登录', 'wp-connect').':</div>';
+			$button .= '<div class="wp-connect-login-button"><div class="t_login_text t_login_text' . $login_loaded . '">'.__('您可以用合作网站帐号登录', 'wp-connect').':</div>';
 			$div = 'div';
 		} else {
 			$div = 'span';
@@ -165,6 +166,7 @@ function wp_connect_button($style = 0, $text = 1, $echo = 1) {
 			$button .= "<a href=\"{$login_link}\" title=\"{$vaule}\" rel=\"nofollow\"><img src=\"{$plugin_url}/images/login/{$btn}_{$media}.png\" /></a>";
 		} 
 		$button .= '</' . $div . '>';
+		if ($text) $button .= '</div>';
 	} 
 	$login_loaded += 1;
 	if ($echo) {
