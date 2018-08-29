@@ -161,3 +161,10 @@ Version: 1.5.1
 Release date: 2018-02-28
 What's new:
 - forced to use Google API 3.31. Experimental 3.32 breaks info window functionality of the map markers.
+
+
+Version: 1.5.2
+Release date: 2018-08-28
+What's new:
+- using latest Google API
+- fixed Google map marker infowindow

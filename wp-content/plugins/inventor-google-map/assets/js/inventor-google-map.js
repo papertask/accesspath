@@ -26,7 +26,7 @@ jQuery(document).ready(function($) {
     var map = $('#map');
 
     if (map.length) {
-        var styles = map.data( 'styles' );
+        var styles = map.data('styles');
         var markerStyle = map.data('marker-style');
 
         var marker = {
@@ -38,6 +38,13 @@ jQuery(document).ready(function($) {
             marker = {
                 height: 40,
                 width: 40
+            }
+        }
+
+        if (markerStyle == 'thumbnail') {
+            marker = {
+                height: 60,
+                width: 60
             }
         }
 
@@ -81,10 +88,8 @@ jQuery(document).ready(function($) {
                     geolocation: map.data('geolocation'),
                     infowindow: {
                         borderBottomSpacing: 0,
-                        height: 260,
-                        width: 200,
-                        offsetX: -131,
-                        offsetY: -265
+                        width: 260,
+                        height: 240
                     },
                     center: {
                         latitude: map.data('latitude'),

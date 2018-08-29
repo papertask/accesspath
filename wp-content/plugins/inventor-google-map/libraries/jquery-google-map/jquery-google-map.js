@@ -36,10 +36,8 @@ if ( ! gettext ) {
 				markers: [],
 				infowindow: {
 					borderBottomSpacing: 6,
-					height: 150,
 					width: 340,
-                    offsetX: -21,
-                    offsetY: -21
+					height: 150
 				},
 				marker: {
 					height: 40,
@@ -336,14 +334,6 @@ if ( ! gettext ) {
 	}
 
 	function addClusterOnMap(cluster) {
-		// Hide all cluster's markers
-		$.each(cluster.getMarkers(), (function () {
-			if (this.marker.isHidden == false) {
-				this.marker.isHidden = true;
-				this.marker.close();
-			}
-		}));
-
 		var newCluster = new InfoBox({
 			markers: cluster.getMarkers(),
 			draggable: true,
@@ -380,21 +370,21 @@ if ( ! gettext ) {
 				map: map
 			};
 
-			if (settings.transparentMarkerImage) {
-				args['icon'] = {
-					url: settings.transparentMarkerImage,
-					size: new google.maps.Size(settings.marker.width, settings.marker.height)
-				};
+			if (markerObject.marker_content) {
+				args['content'] = markerObject.marker_content;
+				args['shadow'] = 0;
+				args['anchor'] = RichMarkerPosition.MIDDLE;
 			}
 
-			var marker = new google.maps.Marker(args);
+			// Create marker
+			var marker = new RichMarker(args);
 
 			// Create infobox for infowindow
 			if (markerObject.content) {
 				marker.infobox = new InfoBox({
 					content: markerObject.content,
 					disableAutoPan: true,
-					pixelOffset: new google.maps.Size(settings.infowindow.offsetX, settings.infowindow.offsetY, settings.infowindow.offsetX, settings.infowindow.offsetY),
+					pixelOffset: new google.maps.Size(-settings.infowindow.width/2, -settings.infowindow.height-settings.marker.height/2),
 					position: new google.maps.LatLng(markerObject.latitude, markerObject.longitude),
 					isHidden: false,
                     closeBoxURL: "",
@@ -405,27 +395,11 @@ if ( ! gettext ) {
 				marker.infobox.isOpen = false;
 			}
 
- 			// Create infobox for marker
-			marker.marker = new InfoBox({
-				draggable: true,
-				content: markerObject.marker_content,
-				disableAutoPan: true,
-				pixelOffset: new google.maps.Size(-settings.marker.width/2, -settings.marker.height),
-				position: new google.maps.LatLng(markerObject.latitude, markerObject.longitude),
-				closeBoxURL: "",
-				isHidden: false,
-				pane: "floatPane",
-				enableEventPropagation: true
-			});
-
 			// Handle logic for opening/closing info windows
-			marker.marker.isHidden = false;
-			marker.marker.open(map, marker);
 			markers.push(marker);
 
 			google.maps.event.addListener(marker, 'click', function (e) {
-                if (marker.infobox !== undefined) {
-
+				if (marker.infobox !== undefined) {
                     var curMarker = this;
                     var position = new google.maps.LatLng(marker.getPosition().lat(), marker.getPosition().lng());
 
@@ -482,24 +456,10 @@ if ( ! gettext ) {
 					if (val !== false) {
 						val.cluster.setContent('<div class="clusterer"><div class="clusterer-inner">' + cluster.getMarkers().length + '</div></div>');
 						val.markers = cluster.getMarkers();
-						$.each(cluster.getMarkers(), (function (index, marker) {
-							if (marker.marker.isHidden == false) {
-								marker.marker.isHidden = true;
-								marker.marker.close();
-							}
-						}));
 					} else {
 						addClusterOnMap(cluster);
 					}
 				} else {
-					// Show all markers without the cluster
-					$.each(cluster.getMarkers(), function (index, marker) {
-						if (marker.marker.isHidden == true) {
-							marker.marker.open(map, this);
-							marker.marker.isHidden = false;
-						}
-					});
-
 					// Remove old cluster
 					$.each(clustersOnMap, function (index, cluster_on_map) {
 						if (cluster !== undefined && cluster_on_map !== undefined) {

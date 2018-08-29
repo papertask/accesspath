@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Gutenberg - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-08-20 16:38:43+0000\n"
+"PO-Revision-Date: 2018-08-25 11:34:00+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -43,6 +43,10 @@ msgstr "Block Tastenkombinationen"
 msgid "Clear selection."
 msgstr "Auswahl löschen."
 
+#: languages/gutenberg-translations.php:128
+msgid "Selection shortcuts"
+msgstr "Auswahl Tastenkombinationen"
+
 #: languages/gutenberg-translations.php:125
 msgid "Switch between Visual Editor and Code Editor."
 msgstr "Wechselt zwischen Visueller Editor und Code-Editor."
@@ -63,6 +67,10 @@ msgstr "Globale Tastenkombinationen"
 msgid "Display the selected text in a monospaced font."
 msgstr "Zeigt den ausgewählten Text als Monospace Schrift."
 
+#: languages/gutenberg-translations.php:89
+msgid "Add a strikethrough to the selected text."
+msgstr "Durchstreichen des ausgewählten Text."
+
 #: languages/gutenberg-translations.php:86
 msgid "Remove a link."
 msgstr "Entfernt einen Link."
@@ -71,6 +79,10 @@ msgstr "Entfernt einen Link."
 msgid "Convert the selected text into a link."
 msgstr "Wandelt den ausgewählten Text in einen Link."
 
+#: languages/gutenberg-translations.php:80
+msgid "Underline the selected text."
+msgstr "Unterstreicht den ausgewählten Text."
+
 #: languages/gutenberg-translations.php:77
 msgid "Make the selected text italic."
 msgstr "Macht den ausgewählten Text kursiv."
@@ -78,6 +90,10 @@ msgstr "Macht den ausgewählten Text kursiv."
 #: languages/gutenberg-translations.php:74
 msgid "Make the selected text bold."
 msgstr "Macht den ausgewählten Text fett."
+
+#: languages/gutenberg-translations.php:71
+msgid "Text formatting"
+msgstr "Text Formatierungen"
 
 #: languages/gutenberg-translations.php:47
 msgid "Keyboard Shortcuts"
@@ -412,7 +428,7 @@ msgstr "Entferne von Wiederverwendbaren Blöcken"
 
 #: languages/gutenberg-translations.php:1232
 msgid "Add to Reusable Blocks"
-msgstr "Füge zu Wiederverwendbaren Blöcken hinzu"
+msgstr "Zu wiederverwendbaren Blöcken hinzufügen"
 
 #: languages/gutenberg-translations.php:1159
 msgid "This block has been modified externally."

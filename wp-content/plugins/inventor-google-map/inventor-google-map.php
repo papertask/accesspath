@@ -2,7 +2,7 @@
 
 /**
  * Plugin Name: Inventor Google Map
- * Version: 1.5.1
+ * Version: 1.5.2
  * Description: Provides Google Map widget with advanced settings.
  * Author: Pragmatic Mates
  * Author URI: http://inventorwp.com
